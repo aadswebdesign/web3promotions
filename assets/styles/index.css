@@ -1,0 +1,10 @@
+/** styles/index.css */
+@import "./modules/resets.css";
+@import "./modules/classes.css";
+@import "./modules/base.css";
+@import "./modules/top_section.css";
+@import "./modules/main.css";
+@import "./modules/bottom_section.css";
+@import "./modules/templates.css";
+@import "./modules/media.css";
+

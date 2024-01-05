@@ -1,0 +1,152 @@
+/** modules/classes.css */
+.absolute{
+	position:absolute;
+}
+.relative{
+	position: relative;
+}			
+.fixed{
+	position: fixed;
+}			
+.sticky{
+	position: sticky;
+}
+.absolute,
+.relative,
+.fixed,
+.sticky{
+	inset: 0;
+}
+.display-block{
+	display: block;
+}
+.display-flex{
+	display: flex;
+}	
+.display-grid{
+	display: grid;
+}
+.display-none{
+	display: none;
+}
+.a-underline{
+	text-decoration: underline;
+}
+.asterix::before{
+	position: relative;
+	content:"*";
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.a-underline-dashed{
+	text-decoration: underline dashed;
+}
+.a-underline-dotted{
+	text-decoration: underline dotted;
+}
+.padding-left-38px{
+	width: inherit;
+	padding-left: 1.6rem;
+}
+.quoted-double::before{
+	position: relative;
+	content:"\201C";
+	font-size: 1.2em;
+}
+.quoted-double::after{
+	content:"\201D";
+	font-size: 1.2em;
+	position: relative;
+	height: 0.6em;
+	top: 0;
+}
+.quoted-single::before{
+	position: relative;
+	content:"\2018";
+	font-size: 1.2em;
+}
+.quoted-single::after{
+	content:"\2019";
+	font-size: 1.2em;
+	position: relative;
+	height: 0.6em;
+	top: 0;
+}
+.ltr-arrow::before{
+	content:"\2192";
+	padding-right: 0.3rem;
+	vertical-align: baseline;
+	font-size: 1.0em;
+}
+.to-up-caret::before{
+	content:"\25B2";	
+	position: relative;
+	padding-right: 0.3rem;
+	font-size: 1.1rem;
+	color: #e2e2e2;
+}
+.to-right-caret::before{
+	content:"\25BA";
+	position: relative;
+	font-size: 1.1rem;
+}
+.to-down-caret::before{
+	content:"\25BC";	
+	position: relative;
+	padding-right: 0.3rem;
+	font-size: 1.1rem;
+	color: #e2e2e2;
+}
+.to-left-caret::before{
+	content:"\25C0";
+	position: relative;
+	font-size: 1.1rem;
+}
+.list-circle{
+	list-style: circle inside;
+}	
+.list-disc{
+	list-style: disc inside;
+}
+.list-square{
+	list-style: square inside;
+}
+.text-center{
+	text-align: center;
+}
+.cookie-img::after{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	content: url("./../../graphics/icons/cookie.svg");
+}
+.no-cookie-img::after{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	content: url("./../../graphics/icons/no-cookie.svg");
+}
+.flag-nl::before{
+	position: relative;
+	top: 1px;
+	left: -1px;
+	content: url("./../../graphics/icons/flag-nl.svg");
+}
+.flag-th::before{
+	position: relative;
+	top: 1px;
+	left: -1px;
+	content: url("./../../graphics/icons/flag-th.svg");
+	text-align: center;
+}
+.globe::before{
+	position: relative;
+	top: 1px;
+	left: -1px;
+	content: url("./../../graphics/icons/globe.svg");
+	text-align: center;
+}
+p.fl-one::first-letter{
+	font-size: 1.4em;
+}

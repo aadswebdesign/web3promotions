@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1600 1600" height="160" width="160" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+		<style>
+			.base-style{fill: none;fill-rule:evenodd;stroke:#000000;stroke-width:0.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1 }
+			.fill-1{fill: rgb(102,102,102);}
+			.fill-2{fill: rgb(167,167,167);}
+			.fill-3{fill: rgb(234,234,234);}
+			.stroke-set-1{ stroke: rgb(253,171,132);stroke-width:15px;}
+			.text-base{font-style:normal;font-weight:normal;font-size:400px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect66);fill:#000000;fill-opacity:1;stroke:none;stroke-width:10px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;}
+			.text-set-1{fill: rgb(255,215,0);stroke-width:5px; stroke: rgb(167,167,167);}
+
+		</style>
+    </defs>
+	<g>
+		<g>
+			<path class="base-style fill-1" d="M 106.89825,0.10001396 1493.4401,0.28140711 C 1569.7642,7.9363117 1597.8907,107.64622 1599.866,320.56301 l 0.034,959.62929 c -0.6844,210.4528 -34.0968,323.2434 -106.4472,319.6232 l -1386.69748,-0.086 C 35.00673,1592.0779 -2.5886866,1490.9919 0.24973587,1279.7737 L 0.21382657,320.47958 C 0.29257783,107.46485 35.493689,-0.43462268 106.89818,0.10375402 Z" />
+			<path class="base-style stroke-set-1" d="M 109.11056,159.20233 H 1486.598 l 3.7431,1279.32627 -1384.97372,5.6609 z" />
+		</g>
+		<g>
+		    <text class='text-base text-set-1' transform="matrix(1.9187566,0,0,1.8912021,-146.28195,-417.39349)"><tspan x="134.58984" y="621.87744"><tspan>W</tspan></tspan></text>
+		    <text class='text-base text-set-1' transform="matrix(2.8275657,0,0,2.0781407,-1721.7157,78.322521)"><tspan  x="862.59961" y="615.7583"><tspan>3</tspan></tspan></text>
+		</g>
+	</g>
+</svg>

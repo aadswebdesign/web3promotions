@@ -1,0 +1,45 @@
+<svg viewBox="0 0 960 860" height="auto" width="auto" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+	    <filter>
+		<feDropShadow stdDeviation="0.4" dy="0.6" dx="0.4" />
+		</filter>
+		<style>
+			.base-style{fill: none;fill-rule:evenodd;stroke:#000000;stroke-width:0.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1 }
+			.fill-1{fill: rgb(102,102,102);}
+			.fill-2{fill: rgb(167,167,167);}
+			.fill-3{fill: rgb(234,234,234);}
+			.stroke-set-1{ stroke: rgb(167,167,167);stroke-width:3px;}
+			.text-base{font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;}
+			.text-set-1{fill:rgb(255,215,0);stroke:rgb(167,167,167);filter:url(#shadow_1);}
+			.d-3-back{fill:#e9e9ff;}
+			.d-3-l-r-outer{fill:#353564;}
+			.d-3-bottom{fill:#afafde;}
+			.d-3-top{fill:#4d4d9f;}
+			.d-3-l-r-inner{fill:#d7d7ff;}
+			.d-3-front{fill:#8686bf;}
+		</style>
+    </defs>
+	<g>
+		<path class='base-style' style="fill:#f2f2f2;" d="M 0.06156848,0.06156848 H 479.93844 V 179.93843 H 0.06156848 Z" />
+		<!-- box1 -->
+		<g>
+			<path class='base-style d-3-back' d="M 77.623098,3.1488494e-6 180,10.642643 V 140.89886 L 77.623098,100.43863 Z" points='180,10.642643 180,140.89886 77.623098,100.43863 77.623098,3.1488494e-06' />
+			<path class='base-style d-3-l-r-outer' d="M -1.8469616e-6,5.8205046 V 122.56649 L 77.623098,100.43863 V 3.1488494e-6 Z" points='-1.8469616e-06,122.56649 77.623098,100.43863 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046' />
+			<path class='base-style d-3-bottom' d="M -1.8469616e-6,122.56649 96.883043,180 180,140.89886 77.623098,100.43863 Z" ponts='-1.8469616e-06,122.56649 77.623098,100.43863 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046' />
+			<path class='base-style d-3-top' d="M -1.8469616e-6,5.8205046 96.883043,20.92779 180,10.642643 77.623098,3.1488494e-6 Z" points='96.883043,20.92779 180,10.642643 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046'/>
+			<path class='base-style d-3-l-r-inner' d="M 96.883043,20.92779 V 180 L 180,140.89886 V 10.642643 Z" points='96.883043,180 180,140.89886 180,10.642643 96.883043,20.92779'/>		
+			<path class='base-style d-3-front' d="M -1.8469616e-6,5.8205046 96.883043,20.92779 V 180 L -1.8469616e-6,122.56649 Z" points='96.883043,20.92779 96.883043,180 -1.8469616e-06,122.56649 -1.8469616e-06,5.8205046'/>		
+		</g>
+		<g>
+			<path class='base-style d-3-back' d="M 402.3769,3.1488494e-6 300,10.642643 V 140.89886 l 102.3769,-40.46023 z" points='300,10.642643 300,140.89886 402.3769,100.43863 402.3769,3.1488494e-06'/>		
+			<path class='base-style d-3-l-r-outer' d="M 480,5.8205046 V 122.56649 L 402.3769,100.43863 V 3.1488494e-6 Z" points='480,122.56649 402.3769,100.43863 402.3769,3.1488494e-06 480,5.8205046'/>		
+			<path class='base-style d-3-bottom' d="M 480,122.56649 383.11696,180 300,140.89886 402.3769,100.43863 Z" points='383.11696,180 300,140.89886 402.3769,100.43863 480,122.56649'/>		
+			<path class='base-style d-3-top' d="M 480,5.8205046 383.11696,20.92779 300,10.642643 402.3769,3.1488494e-6 Z" points='383.11696,20.92779 300,10.642643 402.3769,3.1488494e-06 480,5.8205046'/>		
+			<path class='base-style d-3-l-r-inner' d="M 383.11696,20.92779 V 180 L 300,140.89886 V 10.642643 Z" points='383.11696,180 300,140.89886 300,10.642643 383.11696,20.92779'/>		
+			<path class='base-style d-3-front' d="M 480,5.8205046 383.11696,20.92779 V 180 L 480,122.56649 Z" points='383.11696,20.92779 383.11696,180 480,122.56649 480,5.8205046'/>		
+		</g>
+		<g>
+			<path class='base-style' style="fill:rgb(244,222,189)" d="m 150.10356,60.103561 c 60.32414,10.222675 120.25605,10.247368 179.79288,0 41.53203,6.130118 38.95676,54.834649 0,59.792869 -60.90501,10.1301 -120.8561,10.33951 -179.79288,0 -38.2673,-5.21594 -42.17597,-53.105265 0,-59.792869 z" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,67 @@
+/** styles/modules/media.css */
+@media (max-width: 480px) {
+	h1{
+		font-size:1.5rem;
+	}
+	h2{
+		font-size: 1.25rem;
+	}
+	h3{
+		font-size: 1.125rem;
+	}
+	h4{
+		font-size: 1.025rem;
+	}
+	h5{
+		font-size: 1.015rem;
+	}
+	h6{
+		font-size: 1.01rem;
+	}
+	p,li{
+		font-size: 1.02rem;
+	}
+	.content-block{
+		gap: 0.2rem;
+	}
+	.content-block header{
+		padding: 0.2rem 0;
+	}
+	.content-block article{
+		top: 0;
+	}
+	.content-block article.notifications{
+		margin-bottom: 0.1rem;
+	}
+	.block-left .my-person-container{
+		width: 6.25rem;
+		height: 6.6875rem;
+	}
+	.content-block .home-page header{
+		padding-bottom: 0.5rem;		
+	}
+	.content-block .home-page header h2{
+		
+	}
+	.content-block .home-page{
+		padding: 0.3rem;
+	
+	}
+	
+}
+@media (max-width: 480px) and (orientation : portrait) {
+	div.page-tabs{
+		padding-left: 0.45rem;
+		gap: 0.45rem;
+	}
+	main .block.page .template-null{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}	
+	.block-left{
+		width: 100%;
+		justify-content: center;
+		padding-bottom: 0.5rem;
+	}	
+
+}

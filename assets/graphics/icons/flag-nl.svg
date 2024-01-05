@@ -1,0 +1,7 @@
+<svg viewBox="0 0 9 8" id='flag_nl' height='32' width='32' xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill="#21468b" d="M0 0h9v6H0z"/>
+		<path fill="#fff" d="M0 0h9v4H0z"/>
+		<path fill="#ae1c28" d="M0 0h9v2H0z"/>
+	</g>
+</svg>

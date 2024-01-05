@@ -1,0 +1,73 @@
+/** modules/resets.css */
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property - The "symbol *" part is to solve Firefox SVG sprite bug*/
+*:where(:not(ol,div,iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+    all: unset;
+	display: revert;    
+}
+/* Preferred box-sizing value */
+*,*::before,*::after 
+{
+	box-sizing: border-box;
+}
+/* Remove list styles (bullets/numbers) */
+ul {
+    list-style: none;
+}
+ol {
+	list-style-position: inside;
+}
+/* For images to not be able to exceed their container */
+img{
+    max-width: 100%;
+}
+/* removes spacing between cells in tables */
+table {
+    border-collapse: collapse;
+}
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+    white-space: revert;
+}
+summary::marker{
+	content:'';
+}
+html[data-platform='iPad'] body main aside.details-block.top .detail-box details summary{
+	z-index: 10;
+}
+
+html[data-platform='iPad'] body main aside.details-block.top .detail-box details summary i{
+	left:-2.0rem;
+	background: blue;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, small{
+	text-wrap: balance;
+}
+small{
+	font-size: 0.98rem;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 600;
+}
+h1{
+	font-size:2.125rem;
+}
+h2{
+	font-size: 1.875rem;
+}
+h3{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 1.25rem;
+}
+h5{
+	font-size: 1.125rem;
+}
+h6{
+	font-size: 1.0rem;
+}

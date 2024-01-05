@@ -1,0 +1,99 @@
+/** styles/modules/bottom_section.css */
+/* SECTION TOP */
+.wrap section.bottom{
+	background: rgb(90,140,177);
+	color: rgb(223,223,223);
+	gap: 0.5rem;
+}
+div.bottom-block{
+	padding: 0.2rem 0.5rem;
+	justify-content: space-between;
+	flex-grow: 1;
+	gap: 0.8rem;
+}
+details.cookie-details summary{
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+details.cookie-details[open] summary{
+	opacity: 0.6;
+}
+details.cookie-details[open] .details-content{
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	gap: 0.5rem;
+	height: fit-content;
+	width: fit-content;
+	background: rgb(141,192,250);
+	color: #ebefdd;
+	transform: translateY(-8px);
+}
+
+div.bottom-block .call-to-action.en{
+	background-image:  url("./../../graphics/icons/subscribe-en.svg");
+}
+div.bottom-block .call-to-action.nl{
+	background-image:  url("./../../graphics/icons/subscribe-nl.svg");
+}
+div.bottom-block .call-to-action.th{
+	background-image:  url("./../../graphics/icons/subscribe-th.svg");
+}
+div.bottom-block .call-to-action{
+	top: 0.1rem;
+	width: 9.5rem;
+	height:2.2rem;
+	background-repeat: no-repeat;
+	background-size: 9.5rem 2.2rem;
+	cursor: pointer;
+}
+
+.content-block-tabs{
+	flex-grow: 1;
+	justify-content: flex-end;
+	gap: 0.3rem;
+	padding-bottom:0.2rem;
+}
+.block-tab.one[open] summary{
+	opacity: 0.5;
+	cursor: initial;
+}
+.block-tab summary{
+	width: 60px;
+	height: fit-content;
+}
+.block-tab.one summary{
+	height: 36px;
+}
+.block-tab.one summary i{
+	background-image:  url("./../../graphics/icons/globe.svg");
+	background-size: 24px, 24px;
+}
+
+.block-tab.two summary i{
+	background-image:  url("./../../graphics/icons/flag-nl.svg");
+}
+.block-tab.three summary i{
+	background-image:  url("./../../graphics/icons/flag-th.svg");
+}
+.block-tab summary i{
+	top: auto;
+	left: auto;
+	width: 36px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+footer.main{
+	width: fit-content;	
+}
+footer.main small{
+	top: 0.4rem;
+	height: 2.4rem;
+
+	padding-right: 0.45rem;
+	color: #adadad;
+	white-space: balance;
+}
