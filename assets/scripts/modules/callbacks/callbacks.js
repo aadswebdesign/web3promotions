@@ -4,7 +4,8 @@ import * as HL from './../../factory/handlers.js';
 export async function callbacks(){
 	const elems ={
 		vp: window.visualViewport,
-		main: await FT.elQuery('main')
+		main: await FT.elQuery('main'),
+		body: document.body,
 	};
 	const top_block = (async()=>{
 		const tb_obj = {};
@@ -16,11 +17,9 @@ export async function callbacks(){
 		tb_obj.details_rulers = await FT.elQuery('div.details-block div.ruler',true,tb_obj.parent);
 		const top_block_down_open = async()=>{
 			tb_obj.elems.main.style.opacity = 0.1;
-			//console.log('top_block_down_open'); 
 		};
 		const top_block_down_close = async()=>{
 			tb_obj.elems.main.style.opacity = 1;
-			//console.log('top_block_down_close'); 
 		};
 		tb_obj.cb = {
 			down_close : top_block_down_close,
@@ -99,11 +98,6 @@ export async function callbacks(){
 						}
 						
 					});
-					//console.log('detail:',detail); 
-					//console.log('ruler:',ruler); 
-					//console.log('details_content:',details_content); 
-					//console.log(':',); 
-					//console.log(':',); 
 				}
 			}
 		});
@@ -116,11 +110,9 @@ export async function callbacks(){
 		bb_obj.details_elems = await FT.elQuery('details.cookie-details',true,bb_obj.elems.parent);
 		const cookie_up_open = async()=>{
 			bb_obj.elems.main.style.opacity = 0.1;
-			//console.log('cookie_up_open'); 
 		};
 		const cookie_up_close = async()=>{
 			bb_obj.elems.main.style.opacity = 1;
-			//console.log('cookie_up_close'); 
 		};
 		bb_obj.cb = {
 			up_close : cookie_up_close,
@@ -187,11 +179,24 @@ export async function callbacks(){
 			}
 		});
 	})();
+	const vp_handler = ()=>{
+		const vp_height = elems.vp.height;
+		const vp_width = elems.vp.width;
+		return ()=>{
+			elems.body.style.height = `${vp_height}px`;
+			elems.body.style.width = `${vp_width}px`;
+			console.log('elems.body:', elems.body);
+		};
+	};
+	vp_handler()();
+	window.visualViewport.addEventListener('resize',()=>{
+		vp_handler()();
+	});
 	const call_to_action = (async ()=>{
 		const bottomBlock = await FT.elQuery('section.bottom div.bottom-block');
 		const anchorContainer = await FT.elQuery('div.call-to-action', false, bottomBlock );
 		const anchor_elem = await FT.elQuery('a', false, anchorContainer );
-		//spacemall link
+		//spacemall links
 		const direct_id = 231;
 		const site_url = 'https://platform.thespacemall.com';
 		//LEFT SIDE LINK JS

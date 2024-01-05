@@ -12,7 +12,8 @@ export const templateMainCb = async (_obj,page_id)=>{
 	await FT.setContent(ftrBlock,ftrContent);
 	const elems ={
 		vp: window.visualViewport,
-		main: await FT.elQuery('main')
+		main: await FT.elQuery('main'),
+		body: document.body,
 	};
 	const bottom_block = (async ()=>{
 		const bb_obj = {};
@@ -139,4 +140,17 @@ export const templateMainCb = async (_obj,page_id)=>{
 		};
 		await HL.detailsHandler({...bt_obj},true);
 	})();
+	const vp_handler = ()=>{
+		const vp_height = elems.vp.height;
+		const vp_width = elems.vp.width;
+		return ()=>{
+			elems.body.style.height = `${vp_height}px`;
+			elems.body.style.width = `${vp_width}px`;
+			console.log('elems.body:', elems.body);
+		};
+	};
+	vp_handler()();
+	window.visualViewport.addEventListener('resize',()=>{
+		vp_handler()();
+	});
 };
