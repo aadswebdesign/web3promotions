@@ -146,7 +146,7 @@ export const templateMainCb = async (_obj,page_id)=>{
 		return ()=>{
 			elems.body.style.height = `${vp_height}px`;
 			elems.body.style.width = `${vp_width}px`;
-			console.log('elems.body:', elems.body);
+			//console.log('elems.body:', elems.body);
 		};
 	};
 	vp_handler()();

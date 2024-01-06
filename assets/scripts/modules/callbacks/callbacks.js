@@ -179,19 +179,6 @@ export async function callbacks(){
 			}
 		});
 	})();
-	const vp_handler = ()=>{
-		const vp_height = elems.vp.height;
-		const vp_width = elems.vp.width;
-		return ()=>{
-			elems.body.style.height = `${vp_height}px`;
-			elems.body.style.width = `${vp_width}px`;
-			console.log('elems.body:', elems.body);
-		};
-	};
-	vp_handler()();
-	window.visualViewport.addEventListener('resize',()=>{
-		vp_handler()();
-	});
 	const call_to_action = (async ()=>{
 		const bottomBlock = await FT.elQuery('section.bottom div.bottom-block');
 		const anchorContainer = await FT.elQuery('div.call-to-action', false, bottomBlock );
@@ -209,6 +196,6 @@ export async function callbacks(){
 		const rightSideLink =`${site_url}/register?directId=${direct_id}&refId=leftright&side=${right_side_id}&signature=${signature_right}`;
 		//WEAKEST Side LINK at present is leftSideLink
 		anchor_elem.href = leftSideLink;
-		console.log('anchor_elem:',anchor_elem);
+		//console.log('anchor_elem:',anchor_elem);
 	})();// is an  IIFE (Immediately Invoked Function Expression)
 }

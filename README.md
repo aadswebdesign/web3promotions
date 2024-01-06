@@ -15,30 +15,31 @@
 
 **svg**
 <br/> the icons, bg images are made with svg.
+
 **structure**
 <br/>README.md
 <br/>index.html
-* assets
-  * graphics  
-    * icons 
-	* images  
-  * scripts
-    * index.js
-    * factory
-    <br/>> js files
-    * modules
-      * callbacks
-      <br/>> js files
-      * templates
-      <br/>> js files
-      * views
-      <br/>> js files
-    * htmlManager
-    <br/>> js files
-  * styles
-    * index.css
-    * modules
-    <br/>> css files
+<br/>* assets
+<br/>>	* graphics  
+<br/>		* icons 
+<br/>		* images  
+<br/>>	* scripts
+<br/>		* index.js
+<br/>		* factory
+<br/>			>js files
+<br/>		* modules
+<br/>			* callbacks
+<br/>				>js files
+<br/>			* templates
+<br/>				>js files
+<br/>		* views
+<br/>>			js files
+<br/>		* htmlManager
+<br/>			>js files
+<br/>>	* styles
+<br/>		* index.css
+<br/>		* modules
+<br/>			>css files
 
 <br/>It is a fast and stable website.
 <br/>I have built it from the ground up myself. 
@@ -46,21 +47,22 @@
 <br/>In future I want to add a database, rest api, a contact form to it and enhance it more... 
 <br/>About the topic, you're welcome. There is a lot in it!
 <br/>At least a little snippet here, that I just created to solve the vieport hassles is has.
-<br/>'it is part of my modules but I stick here this snippet!'
+<br/>'and it is part of my modules but I stick here to this snippet!'
 <br/>
 ...
-	const vp_handler = ()=>{
-		const vp_height = elems.vp.height;
-		const vp_width = elems.vp.width;
-		return ()=>{
-			elems.body.style.height = `${vp_height}px`;
-			elems.body.style.width = `${vp_width}px`;
-		};
+	<br/>const vp_handler = ()=>{
+		<br/>const vp_height = elems.vp.height;
+		<br/>const vp_width = elems.vp.width;
+		<br/>return ()=>{
+			<br/>elems.body.style.height = `${vp_height}px`;
+			<br/>elems.body.style.width = `${vp_width}px`;
+		<br/>};
 	};
-	vp_handler()();
-	window.visualViewport.addEventListener('resize',()=>{
-		vp_handler()();
-	});
+	<br/>vp_handler()();
+	<br/>window.visualViewport.addEventListener('resize',()=>{
+		<br/>vp_handler()();
+	<br/>});
+<br/>
 ...
 <br/>
-This make the body element always fit in the viewport!
+This make the body element always fit into the viewport!
