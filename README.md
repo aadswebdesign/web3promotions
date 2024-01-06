@@ -51,19 +51,18 @@
 <br/>'and it is part of my modules but I stick here to this snippet!'
 <br/>
 ```
-	<br/>const vp_handler = ()=>{
-		<br/>const vp_height = elems.vp.height;
-		<br/>const vp_width = elems.vp.width;
-		<br/>return ()=>{
-			<br/>elems.body.style.height = `${vp_height}px`;
-			<br/>elems.body.style.width = `${vp_width}px`;
-		<br/>};
+	const vp_handler = ()=>{
+		const vp_height = elems.vp.height;
+		const vp_width = elems.vp.width;
+		return ()=>{
+			elems.body.style.height = `${vp_height}px`;
+			elems.body.style.width = `${vp_width}px`;
+		};
 	};
-	<br/>vp_handler()();
-	<br/>window.visualViewport.addEventListener('resize',()=>{
-		<br/>vp_handler()();
-	<br/>});
-<br/>
+	vp_handler()();
+	window.visualViewport.addEventListener('resize',()=>{
+		vp_handler()();
+	});
 ```
 <br/>
 This make the body element always fit into the viewport!
