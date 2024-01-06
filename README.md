@@ -19,27 +19,28 @@
 **structure**
 <br/>README.md
 <br/>index.html
-<br/>* assets
-<br/>>	* graphics  
-			* icons 
-			* images  
-<br/>>	* scripts
-<br/>		* index.js
-<br/>		* factory
-<br/>			>js files
-<br/>		* modules
-<br/>			* callbacks
-<br/>				>js files
-<br/>			* templates
-<br/>				>js files
-<br/>		* views
-<br/>>			js files
-<br/>		* htmlManager
-<br/>			>js files
-<br/>>	* styles
-<br/>		* index.css
-<br/>		* modules
-<br/>			>css files
+<br/>
+- assets
+	* graphics  
+		+ icons 
+		+ images  
+	* scripts
+		+ index.js
+		+ factory
+			- js files
+	* modules
+		+ callbacks
+			- js files
+		+ templates
+			- js files
+		+ views
+			- js files
+		+ htmlManager
+			- js files
+	* styles
+		+ index.css
+		+ modules
+			- css files
 
 <br/>It is a fast and stable website.
 <br/>I have built it from the ground up myself. 
@@ -49,7 +50,7 @@
 <br/>At least a little snippet here, that I just created to solve the vieport hassles is has.
 <br/>'and it is part of my modules but I stick here to this snippet!'
 <br/>
-...
+```
 	<br/>const vp_handler = ()=>{
 		<br/>const vp_height = elems.vp.height;
 		<br/>const vp_width = elems.vp.width;
@@ -63,6 +64,6 @@
 		<br/>vp_handler()();
 	<br/>});
 <br/>
-...
+```
 <br/>
 This make the body element always fit into the viewport!
