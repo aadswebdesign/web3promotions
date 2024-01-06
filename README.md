@@ -47,8 +47,7 @@
 <br/>It has a modular approach, no globals and built with reusable js functions.
 <br/>In future I want to add a database, rest api, a contact form to it and enhance it more... 
 <br/>About the topic, you're welcome. There is a lot in it!
-<br/>At least a little snippet here. 
-<br/>It makes that the body allways fit within the viewport.
+<br/>At last a little snippet here and it makes that the body allways fit within the viewport.
 <br/>
 ```
 	const vp_handler = ()=>{
