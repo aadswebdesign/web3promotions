@@ -21,8 +21,8 @@
 <br/>index.html
 <br/>* assets
 <br/>>	* graphics  
-<br/>		* icons 
-<br/>		* images  
+			* icons 
+			* images  
 <br/>>	* scripts
 <br/>		* index.js
 <br/>		* factory
