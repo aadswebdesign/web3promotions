@@ -44,11 +44,11 @@
 
 <br/>It is a fast and stable website.
 <br/>I have built it from the ground up myself. 
-<br/>It has a modular approach and built with reusable js functions.
+<br/>It has a modular approach, no globals and built with reusable js functions.
 <br/>In future I want to add a database, rest api, a contact form to it and enhance it more... 
 <br/>About the topic, you're welcome. There is a lot in it!
-<br/>At least a little snippet here, that I just created to solve the vieport hassles is has.
-<br/>'and it is part of my modules but I stick here to this snippet!'
+<br/>At least a little snippet here. 
+<br/>It makes that the body allways fit within the viewport.
 <br/>
 ```
 	const vp_handler = ()=>{
@@ -64,5 +64,4 @@
 		vp_handler()();
 	});
 ```
-<br/>
-This make the body element always fit into the viewport!
+
