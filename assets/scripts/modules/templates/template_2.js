@@ -68,7 +68,7 @@ export async function templateTwo(){
 				</ul>				
 			</article>
 			<hr/>
-			<header class='relative'><h2>EEN RUIMTE VEILIGSTELLEN IN DE SPACEMALL</h2></header>
+			<header class='relative'><h2>EEN RUIMTE RESERVEREN IN DE SPACEMALL</h2></header>
 			<article class='relative'>
 				<h3>Eerst dit!</h3>
 				<p class='relative'><strong class='topic'>Transparant en Veilig:</strong> Het principe voor alle volgende stappen.</p>
@@ -85,9 +85,9 @@ export async function templateTwo(){
 				<p>Voor dit project hebben ze top ontwikkelaars in huis, mensen die hun credits al verdiend hebben!</p>
 				<h3>Securing a shop!</h3>
 				<p>Omdat het een nieuw concept is met zeer aantrekkelijke voorwaarden, zijn de verwachtingen hooggespannen!</p>
-				<p>Daarom kan het kopen van een licentie en het veiligstellen van een ruimte nu een goed idee zijn!</p>
+				<p>Daarom kan het kopen van een licentie en het reserveren van een winkelruimte nu een goed idee zijn!</p>
 				<h3>Een licentie kopen.</h3>
-				<p class='ltr-arrow relative'>De laagste licentie om een winkel te beveiligen kost 650USD per jaar.</p>
+				<p class='ltr-arrow relative'>De laagste licentie om een winkelruimte te huren kost 650USD per jaar.</p>
 				<h3>Loyaliteitspunten (LP)</h3>
 				<p class='ltr-arrow relative'>In ruil daarvoor krijgt u <span class='quoted-double'>Loyaliteitspunten</span> die:</p>
 				<ul class='relative' role='list'>
