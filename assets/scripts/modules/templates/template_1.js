@@ -61,6 +61,8 @@ import * as FT from './../../factory/functions.js';
 					<li class='list-disc relative'>Purchasing a Digital License.</li>
 					<li class='asterix list-disc relative'>The usersgroup of your country.</li>
 					<li class='asterix list-disc relative'>Webinars on a weekly basis where you will be kept informed on all developments regarding <strong>The SpaceMall</strong>.</li>
+					<li class='ltr-arrow relative'>If you like to attend a webinar? Then you can email me <a href='mailto:gy4v8ufwe@mozmail.com' class='a-underline' title='email service is from relay.firefox'>here</a> and I will send you an invitation.</li>
+					<li class='ltr-arrow relative'>As they are given in Dutch, I will do my very best to translate it for you.</li>
 					<li class='list-disc relative'>More...!</li>
 					<li class='asterix padding-left-38px relative'>
 						<small class='relative'>

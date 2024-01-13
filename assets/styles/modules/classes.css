@@ -38,7 +38,10 @@
 	font-size: 1.2em;
 	font-weight: 600;
 }
-
+.a-underline{
+	text-decoration: underline;
+	font-weight: 600;
+}
 .a-underline-dashed{
 	text-decoration: underline dashed;
 }

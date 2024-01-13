@@ -65,7 +65,9 @@ export async function templateTwo(){
 					<li class='list-disc relative'>Een digitale licentie kopen.</li>
 					<li class='list-disc relative'>Webinairs op een wekelijkse basis en waar u op de hoogte gehouden wordt op all ontwikkelinge omtrent <strong>The SpaceMall</strong>. </li>
 					<li class='list-disc relative'>En meer...!</li>
-				</ul>				
+					<li class='ltr-arrow relative'>Wilt u liever eerst eens zo'n webinar bijwonen? Dan kunt u mij <a href='mailto:gy4v8ufwe@mozmail.com' class='a-underline' title='email service is van relay.firefox'>hier</a> emailen, dan stuur ik u een uitnodiging.</li>
+				</ul>
+				
 			</article>
 			<hr/>
 			<header class='relative'><h2>EEN RUIMTE RESERVEREN IN DE SPACEMALL</h2></header>
