@@ -23,36 +23,6 @@ export const generals = async ()=> {
 	main.addEventListener('click',(event)=>{
 		event.stopPropagation();
 	});
-	const call_to_actions_index = ()=>{
-		console.table({
-			link_statistics_001: {
-				start_date:'03-01-2024',
-				link_url:'leftSideLink',
-				end_date:'not yet known'
-			}//,
-			//link_statistics_002: {
-				//start_date:'',
-				//link_url:'',
-				//end_date:''
-			//},
-			//link_statistics_003: {
-				//start_date:'',
-				//link_url:'',
-				//end_date:''
-			//},
-			//link_statistics_004: {
-				//start_date:'',
-				//link_url:'',
-				//end_date:''
-			//},
-			//link_statistics_005: {
-				//start_date:'',
-				//link_url:'',
-				//end_date:''
-			//}
-		});
-	}
-	call_to_actions_index();
 };
 export const pagingSetup = async ()=>{
 	const PagingArgs = {
