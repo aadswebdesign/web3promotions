@@ -11,7 +11,7 @@ export async function ftrTemplateOne(){
 				<p class='relative'>Aside of possible functional cookies, there are no other cookies used!</p>
 			</div>
 		</details>
-		<div class='call-to-action en relative' title='Subscribing is free and you can unsubscribe at any time!'>
+		<div class='call-to-action en relative' title='You can send me an email here!'>
 			<a class='absolute' target='_blank'></a>
 		</div>
 	`;

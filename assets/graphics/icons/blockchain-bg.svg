@@ -10,7 +10,7 @@
 			.fill-2{fill: rgb(167,167,167);}
 			.fill-3{fill: rgb(234,234,234);}
 			.stroke-set-1{ stroke: rgb(167,167,167);stroke-width:3px;}
-			.text-base{font-style:normal;font-weight:normal;font-size:30px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;}
+			.text-base{font-style:normal;font-weight:normal;font-size:35px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;}
 			.text-set-1{fill:rgb(255,215,0);stroke:rgb(167,167,167);filter:url(#shadow_1);}
 			.d-3-back{fill:#e9e9ff;}
 			.d-3-l-r-outer{fill:#353564;}
@@ -22,9 +22,9 @@
 		<path id='text_path_1' class="base-style" d="m 124,85 c 3.35845,6.75011 14.40741,13.20738 20.76952,14.57521 53.23,11.44425 132.07602,11.672 186.95375,0.8216 8.93094,-1.76582 17.80029,-5.55557 23.85331,-15.39681" />		
     </defs>
 	<g>
-		<path class='base-style fill-base' d="M 0.06156848,0.06156848 H 479.93844 V 179.93843 H 0.06156848 Z" />
+		<path class='base-style fill-base' d="M 0.10038016,0.10038016 H 479.89963 V 180.89962 H 0.10038016 Z" />
 		<!-- box1 -->
-		<g>
+		<g transform="matrix(0.99895608,0,0,0.9984098,0.25054242,0.61075488)">
 			<path class='base-style d-3-back' d="M 77.623098,3.1488494e-6 180,10.642643 V 140.89886 L 77.623098,100.43863 Z" points='180,10.642643 180,140.89886 77.623098,100.43863 77.623098,3.1488494e-06' />
 			<path class='base-style d-3-l-r-outer' d="M -1.8469616e-6,5.8205046 V 122.56649 L 77.623098,100.43863 V 3.1488494e-6 Z" points='-1.8469616e-06,122.56649 77.623098,100.43863 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046' />
 			<path class='base-style d-3-bottom' d="M -1.8469616e-6,122.56649 96.883043,180 180,140.89886 77.623098,100.43863 Z" ponts='-1.8469616e-06,122.56649 77.623098,100.43863 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046' />
@@ -32,7 +32,7 @@
 			<path class='base-style d-3-l-r-inner' d="M 96.883043,20.92779 V 180 L 180,140.89886 V 10.642643 Z" points='96.883043,180 180,140.89886 180,10.642643 96.883043,20.92779'/>		
 			<path class='base-style d-3-front' d="M -1.8469616e-6,5.8205046 96.883043,20.92779 V 180 L -1.8469616e-6,122.56649 Z" points='96.883043,20.92779 96.883043,180 -1.8469616e-06,122.56649 -1.8469616e-06,5.8205046'/>		
 		</g>
-		<g>
+		<g transform="matrix(0.99895608,0,0,0.9984098,0.25054242,0.61075488)">
 			<path class='base-style d-3-back' d="M 402.3769,3.1488494e-6 300,10.642643 V 140.89886 l 102.3769,-40.46023 z" points='300,10.642643 300,140.89886 402.3769,100.43863 402.3769,3.1488494e-06'/>		
 			<path class='base-style d-3-l-r-outer' d="M 480,5.8205046 V 122.56649 L 402.3769,100.43863 V 3.1488494e-6 Z" points='480,122.56649 402.3769,100.43863 402.3769,3.1488494e-06 480,5.8205046'/>		
 			<path class='base-style d-3-bottom' d="M 480,122.56649 383.11696,180 300,140.89886 402.3769,100.43863 Z" points='383.11696,180 300,140.89886 402.3769,100.43863 480,122.56649'/>		
@@ -41,10 +41,10 @@
 			<path class='base-style d-3-front' d="M 480,5.8205046 383.11696,20.92779 V 180 L 480,122.56649 Z" points='383.11696,20.92779 383.11696,180 480,122.56649 480,5.8205046'/>		
 		</g>
 		<g>
-			<path class='base-style fill-1' d="m 150.10356,60.103561 c 60.32414,10.222675 120.25605,10.247368 179.79288,0 41.53203,6.130118 38.95676,54.834649 0,59.792869 -60.90501,10.1301 -120.8561,10.33951 -179.79288,0 -38.2673,-5.21594 -42.17597,-53.105265 0,-59.792869 z" />
+			<path class='base-style fill-1' d="m 142.75438,45.606514 c 65.25319,13.599862 130.08211,13.632713 194.48366,0 44.92559,8.155278 42.1399,72.949946 0,79.546176 -65.88153,13.47671 -130.73119,13.75529 -194.48366,0 -41.39411,-6.93909 -45.622159,-70.649239 0,-79.546176 z" />
 		</g>
 		<g>
-			<text class='text-base text-set-1' x="25" y="383"><textPath href='#text_path_1'>BLOCKCHAIN</textPath></text>
+			<text class='text-base text-set-1' x="10" y="383"><textPath href='#text_path_1'>BLOCKCHAIN</textPath></text>
 		</g>
 	</g>
 </svg>

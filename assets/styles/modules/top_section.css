@@ -43,6 +43,9 @@ div.menu-item.active{
 #menu_item_1{
 	order: 2;
 }
+#menu_item_2{
+	order: 1;
+}
 div.page-tabs{
 	padding-left: 0.5rem;
 	gap: 0.5rem;
@@ -61,7 +64,7 @@ div.page-tabs summary{
 }
 div.page-tabs summary .summary-ruler{
 	top: auto;
-	height:1px;
+	height:2px;
 	width: 100%;
 	transform: translate(0,3px);
 	background: #000;

@@ -11,7 +11,7 @@ export async function ftrTemplateThree(){
 				<p>นอกเหนือจากคุกกี้การทำงานที่เป็นไปได้แล้ว ไม่มีการใช้คุกกี้อื่นๆ!</p>
 			</div>
 		</details>
-		<div class='call-to-action th relative' title='สมัครสมาชิกฟรีและคุณสามารถยกเลิกการสมัครได้ตลอดเวลา!'>
+		<div class='call-to-action th relative' title='คุณสามารถส่งอีเมลถึงฉันได้ที่นี่!'>
 			<a class='absolute' target='_blank'></a>
 		</div>
 	`;

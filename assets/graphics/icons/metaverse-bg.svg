@@ -10,7 +10,7 @@
 			.fill-2{fill: rgb(167,167,167);}
 			.fill-3{fill: rgb(234,234,234);}
 			.stroke-set-1{ stroke: rgb(167,167,167);stroke-width:3px;}
-			.text-base{font-style:normal;font-weight:normal;font-size:45px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;}
+			.text-base{font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;}
 			.text-set-1{fill:rgb(255,215,0);stroke:rgb(167,167,167);filter:url(#shadow_1);}
 		</style>
 		<!-- id="text_path_1" -->
@@ -31,7 +31,7 @@
 			<path class="base-style stroke-set-1" d="m 32.569701,50.566439 c 129.266259,11.17574 259.969129,15.53058 394.860239,0 l 0.80023,165.443041 0.008,1.56637 c -133.96307,15.97242 -265.59156,11.15384 -396.741027,-0.06 z" />
 		</g>
 		<g>
-			<text class='text-base text-set-1' x="80" y="383"><textPath href='#text_path_1'>METAVERSE</textPath></text>
+			<text class='text-base text-set-1' x="60" y="383"><textPath href='#text_path_1'>METAVERSE</textPath></text>
 		</g>
 	</g>
 </svg>
