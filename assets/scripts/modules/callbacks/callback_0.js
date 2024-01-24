@@ -5,7 +5,6 @@ import {web3d_specs} from './../creations_0/web_3d_specs.js';
 import{ftrTemplateNull} from './../templates/ftr_template_0.js';
 import {content_en} from '../templates/template_0_en.js';
 import {content_nl} from '../templates/template_0_nl.js';
-import {content_th} from '../templates/template_0_th.js';
 export const templateMainCb = async (_obj,page_id)=>{
 	const ftrContent = await ftrTemplateNull();
 	const ftrBlock = await FT.elQuery('.bottom-block');
@@ -115,10 +114,6 @@ export const templateMainCb = async (_obj,page_id)=>{
 				block_nl.classList.replace('display-none','display-flex');
 				await FT.setContent(block_nl, await content_nl());
 			}
-			if(details_th.open){
-				block_th.classList.replace('display-none','display-flex');
-				await FT.setContent(block_th, await content_th());
-			}
 		};
 		const bottom_tabs_up_close = async()=>{
 			if(!details_en.open){
@@ -127,10 +122,7 @@ export const templateMainCb = async (_obj,page_id)=>{
 			if(!details_nl.open){
 				block_nl.classList.replace('display-flex','display-none');
 			}
-			if(!details_th.open){
-				block_th.classList.replace('display-flex','display-none');
-			}
-			if(!details_nl.open && !details_th.open){
+			if(!details_nl.open){
 				details_en.setAttribute('open','');
 			}
 		};
@@ -146,7 +138,6 @@ export const templateMainCb = async (_obj,page_id)=>{
 		return ()=>{
 			elems.body.style.height = `${vp_height}px`;
 			elems.body.style.width = `${vp_width}px`;
-			//console.log('elems.body:', elems.body);
 		};
 	};
 	vp_handler()();

@@ -20,10 +20,6 @@ export async function ftrTemplateNull(){
 				<summary class='to-up-caret relative' title='Open, Introductie' data-added-title=', Introductie'><i class='absolute'></i></summary>
 				<div class='details-content absolute display-none'></div>			
 			</details>	
-			<details class='block-tab three open-up relative'>
-				<summary class='to-up-caret relative' title='Open, การแนะนำ' data-added-title=', การแนะนำ'><i class='absolute'></i></summary>
-				<div class='details-content absolute display-none'></div>			
-			</details>	
 		</div>
 	`;
 	return await template;

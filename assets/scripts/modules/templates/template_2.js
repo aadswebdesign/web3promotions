@@ -26,6 +26,9 @@ export async function templateTwo(){
 				<p>Ik begrijp uw vraag heel goed, ik heb daar ook slechte ervaringen mee.</p>
 				<p>Omdat ik met de mensen achter dit project heb gesproken, kan ik u ervan verzekeren dat dit een bedrijf is met een duidelijke visie en is honderd procent transparant.</p>
 			</article>
+			<div class='img-placeholder relative'>
+				<img class='relative' src='./assets/graphics/images/metaverse_01.jpg' height='100%' width='100%'  alt='metaverse'/>
+			</div>
 			<header class='relative'><h2>THE SPACEMALL, in een notendop!</h2></header>
 			<article class='relative'>
 				<h3>Voor wie is The SpaceMall bedoelt:</h3>

@@ -10,10 +10,11 @@ export const content_en = async ()=>{
 			<p>As my pension isn't that wild, I was looking around for a way to do something about that.</p>
 			<p>With that I ended up at some <span class='quoted-double'>scams (cashFx, oneWise and VidiLook)</span>.</p>
 			<p>Fortunately, they were small investments, but I did lose and I was not happy about that.</p>
-			
-			
 			<p>With this experience richer, I continued to look for a way to create some extra income!</p>
 			<p>Ultimately I ended up at the CryproPerformanceGroup (CPGroup), by extension The SpaceMall and that is where I want to inform you about.!</p>
+			<div class='img-placeholder relative'>
+				<img class='relative' src='./assets/graphics/images/metaverse_03.jpg' height='100%' width='100%'  alt='metaverse'/>
+			</div>
 			<h3>The <span class='quoted-double'>CPGroup</span> briefly</h3>
 			<p>When I first heard about the CPGroup, I was very suspicious.</p>
 			<p>At first, I began with attending some webinars of the usersgroup <span class='quoted-double'>CryproPerformanceGroup-nl</span></p>

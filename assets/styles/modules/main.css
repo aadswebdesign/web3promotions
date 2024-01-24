@@ -2,5 +2,4 @@
 .wrap main{
 	flex-grow: 1;
 	overflow-y: auto;
-	color: rgb(77,87,40);
 }

@@ -12,6 +12,9 @@ export const content_nl = async ()=>{
 			<p>Gelukkig waren het kleine investeringen, maar ik heb er wel mee verloren en daar was ik niet blij mee.</p>
 			<p>Met deze ervaring rijker, bleef ik zoeken naar een manier om wat extra inkomsten te creëren!</p>
 			<p>Uiteindelijk kwam ik terecht bij de CryproPerformanceGroup (CPGroup) met in verlengde daarvan The SpaceMall en dat is waar ik u over will informeren.</p>
+			<div class='img-placeholder relative'>
+				<img class='relative' src='./assets/graphics/images/metaverse_03.jpg' height='100%' width='100%'  alt='metaverse'/>
+			</div>
 			<h3>De <span class='quoted-double'>CPGroup</span> kort.</h3>
 			<p>Toen ik  voor het eerst over de CPGroup hoorde, was ik erg wantrouwend.</p>
 			<p>In eerste instantie begon ik met het bijwonen van enkele webinars van de gebruikersgroep <span class='quoted-double'>CryproPerformanceGroup-nl</span></p>

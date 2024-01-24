@@ -70,6 +70,11 @@
 .content-block small{
 	color: rgb(54 125 23);
 }
+.img-placeholder{
+	top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
 /** LANDING PAGE */
 main .block.page{
 	height: 100%;
@@ -106,9 +111,7 @@ main .block.page .template-null{
 	
 }
 
-.content-block.th .home-page{
-	font-family:'Microsoft Tai Le';
-}
+
 
 
 

@@ -22,6 +22,9 @@ import * as FT from './../../factory/functions.js';
 				<p class='ltr-arrow relative'>I understand your question very well, I have had bad experiences with that too.</p>
 				<p class='ltr-arrow relative'>As I have spoken with the people behind this project, I can make you sure that this is a business with a clear vision and is hundred percent transparent.</p>
 			</article>
+			<div class='img-placeholder relative'>
+				<img class='relative' src='./assets/graphics/images/metaverse_02.jpg' height='100%' width='100%'  alt='metaverse'/>
+			</div>
 			<header class='relative'><h2>The SpaceMall, in a nutshell!</h2></header>
 			<article class='relative'>
 				<h3>Who is The SpaceMall intended for:</h3>
