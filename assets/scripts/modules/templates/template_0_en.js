@@ -13,7 +13,7 @@ export const content_en = async ()=>{
 			Sure and as with any business, not free at risks and no guaranties but as they have a clear vision and are transparent in what they are doing, 
 			I made the decision to do a small investment and spend some time on it!</p>
 			<h3>The CPGroup briefly.</h3>
-			<p class='fl-one'>They are the owners of the <span class='quoted-double'>CPCoin (CPC)</span> and what is the digital currency that powers their ecosystem and that is used for various transactions and activities within their ecosystem.</p>
+			<p class='fl-one'>They are the owners of the <span class='quoted-double'>CPCoin (CPC)</span> and which is the digital currency used for transactions on their ecosystem's blockchain.</p>
 			<h3>The MetaVerseInternational (MVI).</h3>
 			<p class='fl-one'>This is a newly created community platform to help grow the various projects that are going to run on the <span class='quoted-double'>(CPC) Blockchain</span>. 
 			Projects that have prospectivity, sustainability and transparency in common. 
