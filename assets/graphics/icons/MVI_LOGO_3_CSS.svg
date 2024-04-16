@@ -29,10 +29,10 @@
 				font-stretch:normal;
 				font-size:55px;
 				font-family:Consoles;
-				letter-spacing:6.5px;
+				letter-spacing:0.12em;
 				fill:#000000;
 				stroke:#000000;
-				stroke-width:6px;
+				stroke-width:0.09em;
 				stroke-linecap:butt;
 				stroke-linejoin:miter;
 				stroke-opacity:1;
@@ -40,8 +40,8 @@
 			}
 			.text-style-2{
 				font-size:55px;
-				stroke-width:2.5px;
-				letter-spacing:0.02em;
+				stroke-width:0.025em;
+				letter-spacing:0.015em;
 			}
 			.shadow-filter-1{
 				filter:url('#shadow1');
