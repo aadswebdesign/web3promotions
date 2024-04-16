@@ -120,7 +120,7 @@
 .text-center{
 	text-align: center;
 }
-p,ul{
+p,ul,ol{
 	padding-left: 0.6rem;
 	padding-bottom: 0.5rem;
 }
