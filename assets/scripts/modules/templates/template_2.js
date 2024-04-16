@@ -55,8 +55,8 @@ export async function templateTwo(){
 				<h3>Opties:</h3>
 				<p class='ltr-arrow relative'>Registreren bij <strong>(MVI)</strong><span class='quoted-single'>gebruik de link in de bottombar!</span> is volledig gratis en u kunt zich op elk gewenst moment gratis afmelden.</p>
 				<p class='padding-left-38px'>Wanneer u zich registreert, krijgt u toegang tot uw eigen dashboard en alle informatie over dit bedrijf en wekelijks gehouden informatieve webinars.</p>
-				<p class='ltr-arrow relative'>Eerst een informatief webinar bijwonen?</p>
-				<p class='padding-left-38px'>Dat kan ook, <span class='quoted-single'>gebruik hiervoor de envelop in de bottombar!</span>.</p>
+				<p class='ltr-arrow relative'>Liever eerst een informatief webinar bijwonen?</p>
+				<p class='padding-left-38px'>Dat kan ook,stuur me een email <span class='quoted-single'>gebruik hiervoor de envelop in de bottombar!</span>.</p>
 				<p class='ltr-arrow relative'>Informatie op lokatie en binnen Nederland is ook mogelijk.</p>
 				<p class='padding-left-38px'>Stuur mij een email voor de condities <span class='quoted-single'>gebruik ook hiervoor de envelop in de bottombar!</span>.</p>
 			</article>
