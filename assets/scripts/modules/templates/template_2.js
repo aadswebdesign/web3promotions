@@ -8,44 +8,59 @@ import * as HL from './../../factory/handlers.js';
 export async function templateTwo(){
 	const template = `<div id='templateTwo' class='template-two relative'>
 		<div class='relative content-block display-flex'>
-			<article class='notifications relative'>
-				<header class='relative'><h2>Eerst dit.</h2></header>
-				<h3>Persoonlijke presentatie.</h3>
-				<p class='ltr-arrow relative'>Deze website is mijn persoonlijke presentatie over <strong>THE SPACEMALL</strong> en is er alleen aan geaffilieerd.</p>
-				<header class='relative'><h2>Vrijwaring</h2></header>
-				<h3>DE INHOUD VAN DEZE WEBSITE IS GEEN BELEGGINGS- OF FINANCIEEL ADVIES EN IS ALLEEN BEDOELD ALS PRESENTATIE ONDERSTEUNING.</h3>
-				<p class='ltr-arrow relative'>Investeer nooit geld dat u niet heeft of dat u zou kunnen verliezen.</p>
-				<p class='ltr-arrow relative'>Er kunnen fouten voorkomen in de volgende gegevens.</p>
-				<p class='ltr-arrow relative'>Geen garantie.</p>
-				<p class='ltr-arrow relative'>Geen advies.</p>
-				<header class='relative'><h2>Wat het niet is!</h2></header>
-				<h3>Korte termijn investering.</h3>
-				<p>Als u daar op uit bent, dan is dit niet uw plek!</p>
-				<p>Een plek waar u onrealistische voordelen wordt beloofd.</p>
-				<h3>Een snel rijk scam?</h3>
-				<p>Ik begrijp uw vraag heel goed, ik heb daar ook slechte ervaringen mee.</p>
-				<p>Omdat ik met de mensen achter dit project heb gesproken, kan ik u ervan verzekeren dat dit een bedrijf is met een duidelijke visie en is honderd procent transparant.</p>
+			<article class='disclaimer relative'>
+				<header class='relative'><h2>Disclaimer.</h2></header>
+				<p class='ltr-arrow relative'>Alle inhoud op deze website is uitsluitend bedoeld ter ondersteuning van de presentatie en is geenszins een financieel advies.</p>
+				<p class='ltr-arrow relative'>Alle bepalingen en disciplines op <span class='quoted-double'>MetaVerseInternational(MVI)</span> domineren over wat hier wordt vermeld.</p>
+				<p class='ltr-arrow relative'>Ik heb geprobeerd de inhoud op deze website zo accuraat mogelijk te maken, desondanks aanvaard ik geen enkele verantwoordelijkheid voor eventuele typefouten, fouten of misleidende informatie die zich op deze website zouden kunnen voordoen.</p>
+				<p class='ltr-arrow relative'>Zoals bij elk bedrijf is er geen garantie en zijn er risico's <span class='quoted-single'>ze zijn relatief laag!</span> aan verbonden en kunt u uw geld verliezen!</p>
+				<p class='ltr-arrow relative'>Beleg daarom nooit met geld dat u niet heeft of niet kunt missen.</p>
 			</article>
-			<div class='img-placeholder relative'>
-				<img class='relative' src='./assets/graphics/images/metaverse_01.jpg' height='100%' width='100%'  alt='metaverse'/>
-			</div>
-			<header class='relative'><h2>THE SPACEMALL, in een notendop!</h2></header>
 			<article class='relative'>
-				<h3>Voor wie is The SpaceMall bedoelt:</h3>
-				<p class='ltr-arrow relative'>Mensen die graag als eersten willen investeren in een nieuwe veelbelovende industrie.</p>
-				<p class='ltr-arrow relative'>Mensen die samen een nieuwe community willen opbouwen en hier een passief inkomen mee willen opbouwen.</p>
-				<p class='ltr-arrow relative'>Mensen die begrijpen dat de wereld snel veranderd en hier kansen zien.</p>
-				<p class='ltr-arrow relative'>Shopeigenaren die de kansen van dit nieuwe winkelen zien en deze omarmen.</p>
+				<header class='relative'><h2>MetaVerseInternational(MVI).</h2></header>
+				<p>Zoals vermeld op mijn homepage, <span class='quoted-double'>MVI</span> is gemaakt om projecten te promoten en te helpen groeien die gaan draaien op de blockchain van de<span class='quoted-double'>CPC Group</span>.</p>
+				<h3>Opmerking.</h3>
+				<p>Wat ik hier ga gebruiken zijn <span class='quoted-single'>PROJECT -</span> en geen <span class='quoted-single'>PRODUCT</span> namen en dit is voor een goede reden.</p>
 			</article>
 			<hr/>
-			<header class='relative'><h2>Licenties van The Space Mall.</h2></header>
 			<article class='relative'>
-				<p>Deze zijn nu te koop en te betalen met dollars's, euro’s of crypto’s</p>
-				<p>Bij een licentie in deze eerste pre-launch fase krijgt u nu TSM tokens en CPC coins.</p>
-				<p class='ltr-arrow relative'>Meedoen, meer weten?</p>
-				<p>U kunt mij emailen middels de link beneden, dan help ik u graag verder.</p>
-				<p>Uw Sponsor is Aad Pouw.</p>
+				<header class='relative'><h2>The MetaVerseShoppingsExperience (MVSE).</h2></header>
+				<div class='img-placeholder relative'>
+					<img class='relative' src='./assets/graphics/images/metaverse_01.jpg' height='100%' width='100%'  alt='metaverse'/>
+				</div>
+				<p>Dit wordt een van de allereerste virtuele winkelcentra die in de metaverse (web 3.0) gaan draaien.</p>
+				<p>Het is een revolutionair maar realistisch concept met als doel een wereldwijd virtueel winkelcentrum met <strong>125.000 partners</strong> en <strong>625.000 winkels</strong>!</p>
+				<h3>Gemeenschapsgedreven!</h3>
+				<p><strong>(MVSE)</strong>, zal worden aangestuurd door een gemeenschap van <strong>125.000 partners</strong></p>
+				<p>In ruil daarvoor krijgen zij een duurzaam verdienmodel <span class='quoted-single'>tussen de 35- en 39%, afhankelijk van de inspanningen van een partner!</span>.</p>
 			</article>
+			<hr/>
+			<article class='relative'>
+				<header class='relative'><h2>De geweldige kansen voor u!</h2></header>
+				<h3>Ja, ze hebben u nodig!</h3>
+				<ol class='relative'>
+					<li class='ltr-arrow relative'>In eerste instantie als partner die meer partners binnenhaalt.</li>
+					<li class='ltr-arrow relative'>Wanneer de <strong>(MVSE)</strong> live gaat, wordt u een makelaar voor de winkels.!</li>
+				</ol>
+				<h3>Maar, alleen als u:</h3>
+				<p class='ltr-arrow relative'>Betrouwbaar bent.</p>
+				<p class='ltr-arrow relative'>Bereid bent om te leren en samen te werken binnen de gemeenschap.</p>
+				<p class='ltr-arrow relative'>Gemotiveerd bent om er tijd in te steken en eraan te werken.</p>
+				<h3>De tijd is beperkt!</h3>
+				<p class='ltr-arrow relative'>De periode om partner te worden met alle voordelen ervan is beperkt!</p>
+			</article>
+			<hr/>
+			<article class='relative'>
+				<header class='relative'><h2>Deelnemen, meer weten?</h2></header>
+				<h3>Opties:</h3>
+				<p class='ltr-arrow relative'>Registreren bij <strong>(MVI)</strong><span class='quoted-single'>gebruik de link in de bottombar!</span> is volledig gratis en u kunt zich op elk gewenst moment gratis afmelden.</p>
+				<p class='padding-left-38px'>Wanneer u zich registreert, krijgt u toegang tot uw eigen dashboard en alle informatie over dit bedrijf en wekelijks gehouden informatieve webinars.</p>
+				<p class='ltr-arrow relative'>Eerst een informatief webinar bijwonen?</p>
+				<p class='padding-left-38px'>Dat kan ook, <span class='quoted-single'>gebruik hiervoor de envelop in de bottombar!</span>.</p>
+				<p class='ltr-arrow relative'>Informatie op lokatie en binnen Nederland is ook mogelijk.</p>
+				<p class='padding-left-38px'>Stuur mij een email voor de condities <span class='quoted-single'>gebruik ook hiervoor de envelop in de bottombar!</span>.</p>
+			</article>
+			<hr/>
 			<header class='relative'><h2>Bedankt voor het lezen!</h2></header>
  		</div><!--content-block -->
 	</div><!--template-two -->`;

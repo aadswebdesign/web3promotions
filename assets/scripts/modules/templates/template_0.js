@@ -8,12 +8,11 @@ export async function template_null(){
 			</div>
 		</div><!-- block-left -->
 		<div class='block-right relative'>
-			<div id='content_en' class='content-block display-flex absolute'>content_en</div><!-- content-block -->
-			<div id='content_nl' class='content-block display-none absolute'>content_nl</div><!-- content-block -->
-			<div id='content_th' class='content-block display-none absolute'>content_th</div><!-- content-block -->
+			<div id='content_nl' class='content-block display-flex absolute'></div><!-- content-block -->
+			<div id='content_en' class='content-block display-none absolute'></div><!-- content-block -->
 		</div><!-- block-right -->
 	</div><!-- template-null -->
 	`;
-	
 	return await template;
 }
+//			<div id='content_th' class='content-block display-none absolute'>content_th</div><!-- content-block -->

@@ -182,7 +182,24 @@ export async function callbacks(){
 	const call_to_action = (async ()=>{
 		const bottomBlock = await FT.elQuery('section.bottom div.bottom-block');
 		const anchorContainer = await FT.elQuery('div.call-to-action', false, bottomBlock );
-		const anchor_elem = await FT.elQuery('a', false, anchorContainer );
-		anchor_elem.href = 'mailto:gy4v8ufwe@mozmail.com';
+		//email block
+		const email = await FT.elQuery('div.email', false, anchorContainer ); 
+		const email_a_elem = await FT.elQuery('a', false, email);
+		email_a_elem.href = 'mailto:gy4v8ufwe@mozmail.com';
+		//subscribe block
+		const subscribe = await FT.elQuery('div.subscribe', false, anchorContainer ); 
+		const subscribe_a_elem = await FT.elQuery('a', false, subscribe);
+		//MVI links
+		const direct_id = 231;
+		const site_url = 'https://platform.thespacemall.com'; //has to be checked
+		//LEFT SIDE LINK JS
+		const left_side_id = 0;
+		const signature_left = 'd0ce6d301527363c46e9235eff5eab8ff57172ec5aec06ccbd5ea64a797fd876'; 	
+		const leftSideLink = `${site_url}/register?directId=${direct_id}&refId=leftright&side=${left_side_id}&signature=${signature_left}`;
+		//RIGHT SIDE LINK JS
+		const right_side_id = 1; 
+		const signature_right = 'b85e6edc6792b09e80f8b421393d2e4f5365eebd1b307fd1e0e2ab45983c2042';
+		const rightSideLink =`${site_url}/register?directId=${direct_id}&refId=leftright&side=${right_side_id}&signature=${signature_right}`;
+		subscribe_a_elem.href = rightSideLink;
 	})();// is an  IIFE (Immediately Invoked Function Expression)
 }

@@ -5,6 +5,7 @@ import {web3d_specs} from './../creations_0/web_3d_specs.js';
 import{ftrTemplateNull} from './../templates/ftr_template_0.js';
 import {content_en} from '../templates/template_0_en.js';
 import {content_nl} from '../templates/template_0_nl.js';
+import {content_th} from '../templates/template_0_th.js';
 export const templateMainCb = async (_obj,page_id)=>{
 	const ftrContent = await ftrTemplateNull();
 	const ftrBlock = await FT.elQuery('.bottom-block');
@@ -14,6 +15,7 @@ export const templateMainCb = async (_obj,page_id)=>{
 		main: await FT.elQuery('main'),
 		body: document.body,
 	};
+
 	const bottom_block = (async ()=>{
 		const bb_obj = {};
 		bb_obj.elems = elems;
@@ -102,28 +104,35 @@ export const templateMainCb = async (_obj,page_id)=>{
 		const block_en = content_block[0];
 		const block_nl = content_block[1];
 		const block_th = content_block[2];
-		const details_en = bt_obj.details_elems[0];
-		const details_nl = bt_obj.details_elems[1];
-		const details_th = bt_obj.details_elems[2];
+		const details_nl = bt_obj.details_elems[0];
+		const details_en = bt_obj.details_elems[1];
+		//const details_th = bt_obj.details_elems[2];
 		const bottom_tabs_up_open = async()=>{
-			if(details_en.open){
-				block_en.classList.replace('display-none','display-flex');
-				await FT.setContent(block_en, await content_en());
-			}
 			if(details_nl.open){
 				block_nl.classList.replace('display-none','display-flex');
 				await FT.setContent(block_nl, await content_nl());
 			}
+			if(details_en.open){
+				block_en.classList.replace('display-none','display-flex');
+				await FT.setContent(block_en, await content_en());
+			}
+			//if(details_th.open){
+				//block_th.classList.replace('display-none','display-flex');
+				//await FT.setContent(block_th, await content_th());
+			//}
 		};
 		const bottom_tabs_up_close = async()=>{
-			if(!details_en.open){
-				block_en.classList.replace('display-flex','display-none');
-			}
 			if(!details_nl.open){
 				block_nl.classList.replace('display-flex','display-none');
 			}
-			if(!details_nl.open){
-				details_en.setAttribute('open','');
+			if(!details_en.open){
+				block_en.classList.replace('display-flex','display-none');
+			}
+			//if(!details_th.open){
+				//block_th.classList.replace('display-flex','display-none');
+			//}
+			if(!details_en.open){ // && !details_th.open
+				details_nl.setAttribute('open','');
 			}
 		};
 		bt_obj.cb = {
@@ -138,6 +147,7 @@ export const templateMainCb = async (_obj,page_id)=>{
 		return ()=>{
 			elems.body.style.height = `${vp_height}px`;
 			elems.body.style.width = `${vp_width}px`;
+			//console.log('elems.body:', elems.body);
 		};
 	};
 	vp_handler()();

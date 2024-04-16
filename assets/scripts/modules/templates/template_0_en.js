@@ -4,38 +4,22 @@ export const content_en = async ()=>{
 	return `
 		<article class='home-page relative'>
 			<header class='relative'><h2>Welcome at this little website!</h2></header>
-			<h3>I am a pensioner from the Netherlands.</h3>
-			<p>Who is open-minded, does not live up to his age and enjoys being busy with something.</p>
-			<h3>A brief introduction?</h3>
-			<p>As my pension isn't that wild, I was looking around for a way to do something about that.</p>
-			<p>With that I ended up at some <span class='quoted-double'>scams (cashFx, oneWise and VidiLook)</span>.</p>
-			<p>Fortunately, they were small investments, but I did lose and I was not happy about that.</p>
-			<p>With this experience richer, I continued to look for a way to create some extra income!</p>
-			<p>Ultimately I ended up at the CryproPerformanceGroup (CPGroup), by extension The SpaceMall and that is where I want to inform you about.!</p>
-			<div class='img-placeholder relative'>
-				<img class='relative' src='./assets/graphics/images/metaverse_03.jpg' height='100%' width='100%'  alt='metaverse'/>
-			</div>
-			<h3>The <span class='quoted-double'>CPGroup</span> briefly</h3>
-			<p>When I first heard about the CPGroup, I was very suspicious.</p>
-			<p>At first, I began with attending some webinars of the usersgroup <span class='quoted-double'>CryproPerformanceGroup-nl</span></p>
-			<p>What I experienced is that this was not about a <span class='quoted-single'>quick rich scam</span>, but about long-term investments and that they were in close contact with the founders of CPGroup!</p>
-			<p>After thoroughly reading their <span class='quoted-single'>whitepaper</span> I came to the conclusion that CPGroup is a transparent company with a clear vision of what they want to achieve.</p>
-			<p>That did me decide to take the riscs and do a little investment.</p>
-			<h3>What is <span class='quoted-double'>The SpaceMall</span>?</h3>
-			<p class='ltr-arrow relative'>That is a project that runs on the blockchain of the CPGroup.</p>
-			<p class='ltr-arrow relative'>A project with a hughes potential to create a passive income.</p>
-			<p class='ltr-arrow relative'>Where I'm exited about.</p>
-			<p class='ltr-arrow relative'>About which I would like to inform you.</p>
-			<h3>You want to know more about <span class='quoted-double'>The SpaceMall</span> project?</h3>
-			<p>The buttons top right will take you to more detailed info!</p>
-			<h3>You are very welcome.</h3>
-			<p>I am look forward to meet you and building a network together <span class='quoted-single'>it's teamwork</span>.</p>
-			<p>But only if you are reliable, honest and have the right spirit!</p>
-			<p><small><strong>!I don't want cheaters in my group!</strong></small></p>
+			<h3>At first I would like to introduce myself.</h3>
+			<p class='fl-one'>I am a pensioner from the Netherlands who likes it to be busy with something instead of just getting old.</p>
+			<h3>Then, why this website?</h3>
+			<p class='fl-one'>As my pension isn't that wild, I was looking around for a way to do something about that.
+			Finally and after a few scams I came across the <span class='quoted-double'>CryproPerformanceGroup (CPGroup)</span> and 
+			after attending some zoom meetings, I found out that it is a trust worthy opportunity to generate some extra income but on a long term base. 
+			Sure and as with any business, not free at risks and no guaranties but as they have a clear vision and are transparent in what they are doing, 
+			I made the decision to do a small investment and spend some time on it!</p>
+			<h3>The CPGroup briefly.</h3>
+			<p class='fl-one'>They are the owners of the <span class='quoted-double'>CPCoin (CPC)</span> and what is the digital currency that powers their ecosystem and that is used for various transactions and activities within their ecosystem.</p>
+			<h3>The MetaVerseInternational (MVI).</h3>
+			<p class='fl-one'>This is a newly created community platform to help grow the various projects that are going to run on the <span class='quoted-double'>(CPC) Blockchain</span>. 
+			Projects that have prospectivity, sustainability and transparency in common. 
+			Otherwise, <span class='quoted-double'>CPGroup</span> don't want to have them on the blockchain.
+			This is I want to inform you about and the great opportunities it has to offer you.</p>
+			<p><strong>Click on the globe, topright for more! </strong></p>
 		</article>	
-	
-	
-	
-	
 	`;
 };

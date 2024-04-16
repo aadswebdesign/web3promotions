@@ -13,14 +13,27 @@ export async function ftrTemplateNull(){
 		</details>
 		<div class='content-block-tabs relative display-flex'>
 			<details class='block-tab one open-up relative' open>
-				<summary class='to-down-caret relative' title='Open, Introduction' data-added-title=', Introduction'><i class='absolute'></i></summary>
+				<summary class='to-down-caret relative' title='Open, Introductie' data-added-title=', Introductie'><i class='absolute'></i></summary>
 				<div class='details-content absolute display-none'></div>			
+			
 			</details>	
 			<details class='block-tab two open-up relative'>
-				<summary class='to-up-caret relative' title='Open, Introductie' data-added-title=', Introductie'><i class='absolute'></i></summary>
+				<summary class='to-up-caret relative' title='Open, Introduction' data-added-title=', Introduction'><i class='absolute'></i></summary>
 				<div class='details-content absolute display-none'></div>			
+			
 			</details>	
 		</div>
 	`;
 	return await template;
 }
+
+/*
+			<details class='block-tab three open-up relative'>
+				<summary class='to-up-caret relative' title='Open, การแนะนำ' data-added-title=', การแนะนำ'><i class='absolute'></i></summary>
+				<div class='details-content absolute display-none'></div>			
+			</details>	
+
+
+
+*/
+
