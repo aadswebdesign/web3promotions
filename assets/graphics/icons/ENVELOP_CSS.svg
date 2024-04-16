@@ -1,0 +1,45 @@
+<svg viewBox="0 0 480 320" height="32px" width="48px"  xmlns="http://www.w3.org/2000/svg" >
+	<defs>
+	    <filter id='shadow1'>
+			<feDropShadow dx="2" dy="4" stdDeviation="2" flood-color="rgb(242,242,242)" flood-opacity="0.9" />
+		</filter>
+		<style>
+			.base-style{
+				fill-rule:evenodd;
+				stroke-width:0.2px;
+				stroke-linecap:butt;
+				stroke-linejoin:miter;
+				stroke-opacity:1;
+			}
+			.rect-style-1{
+				fill:rgb(235,235,235);
+				stroke:#e3dedb;
+			}
+			.path-style-1{
+				fill:rgb(192,192,192);
+				stroke:#e3dedb;
+			}
+			.path-style-2{
+				fill:rgba(113,131,131,0.3);
+				stroke:#554400;
+			}
+			.path-style-3{
+				fill:rgb(131,131,131);
+				stroke:#554400;
+			}
+			.shadow-filter-1{
+				filter:url('#shadow1');
+			}
+		</style>	
+	</defs>
+	<g>
+	    <rect class='base-style rect-style-1' y='0' x='0' height='320' width='480'/>
+		<path class='base-style path-style-1' d='M 0.10012094,33.587062 220.45053,180.66121 c 13.68069,9.09705 26.87149,8.39488 39.66854,-0.18308 l 219.794,-146.870234 0.0213,286.326524 H 0.06558163 Z' />
+		<path class='base-style path-style-2' d='M 0.06558163,319.93442 214.78368,176.77669 l 50.43661,0.0552 214.71413,143.10249 -50.20132,-0.0238 -178.82068,-119.15853 c -5.93105,-3.09723 -11.5833,-6.86471 -21.65514,-0.11049 L 50.436601,319.91058 Z' />
+		<path class='base-style path-style-3 shadow-filter-1' d='M 0.15239728,0.23522586 230.15892,153.52943 c 6.65437,4.08794 13.30875,3.43942 19.96312,-0.12287 L 479.97307,0.18706586 479.91307,33.607896 260.34753,180.48034 c -12.86007,8.54398 -27.30658,9.10331 -39.86542,0.0838 L 0.10008408,33.567166 Z' />
+	</g>
+	
+	<g>
+		<path class='base-style path-style' d=''/>
+	</g>
+</svg>

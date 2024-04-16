@@ -1,6 +1,6 @@
 <svg viewBox="0 0 480 360" height="66px" width="100px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
-	    <filter>
+	    <filter id='shadow_1'>
 		<feDropShadow stdDeviation="0.4" dy="0.6" dx="0.4" />
 		</filter>
 		<style>

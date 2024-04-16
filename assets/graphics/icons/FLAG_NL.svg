@@ -1,0 +1,23 @@
+<svg width="32" height="24" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" >
+	<defs>
+		<style>
+			.base-style{
+				fill-rule:evenodd;
+				stroke-width:0.2px;
+				stroke-linecap:butt;
+				stroke-linejoin:miter;
+				stroke-opacity:1;
+			}
+			.rect-style-1{
+				fill:#5A8CB1;
+				stroke:#e3dedb;
+			}
+		</style>	
+	</defs>
+	<g>
+		<rect class='base-style rect-style-1' width="320" height="240" x="0" y="0" />
+		<path d="M 20,5 H 300 V 77.1 H 20 Z" fill="#21468b" />
+		<path d="M 20,77.1 H 300 V 153.2 H 20 Z" fill="#ffffff" />
+		<path d="M 20,153.2 H 300 V 231.3 H 20 Z" fill="#ae1c28" />
+	</g>
+</svg>

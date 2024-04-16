@@ -1,0 +1,70 @@
+<svg viewBox="0 0 500 320" height="32px" width="50px" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+	    <filter id='shadow1'>
+			<feDropShadow dx="2" dy="4" stdDeviation="2" flood-color="rgb(128,128,128)" flood-opacity="0.9" />
+		</filter>
+		<filter id="shadow2">
+			<feDropShadow dx="2" dy="4" stdDeviation="2" flood-color="rgb(65,65,65)" />
+		</filter>		
+		<filter id="shadow3">
+			<feDropShadow dx="0" dy="4" stdDeviation="2" flood-color="rgb(65,65,65)" />
+		</filter>		
+		<style>
+			.canvas{
+				fill:rgba(235,235,235,1);
+			}
+			.base-style{
+				fill-rule:evenodd;
+				stroke-width:0.002px;
+				stroke-linecap:butt;
+				stroke-linejoin:miter;
+				stroke-opacity:1;
+			}
+			.path-style-1{
+				fill:#000000;
+				stroke:#000000;
+			}
+			.text-style-1{
+				font-style:normal;font-variant:normal;font-weight:normal;
+				font-stretch:normal;
+				font-size:55px;
+				font-family:Consoles;
+				letter-spacing:6.5px;
+				fill:#000000;
+				stroke:#000000;
+				stroke-width:6px;
+				stroke-linecap:butt;
+				stroke-linejoin:miter;
+				stroke-opacity:1;
+				
+			}
+			.text-style-2{
+				font-size:55px;
+				stroke-width:2.5px;
+				letter-spacing:0.02em;
+			}
+			.shadow-filter-1{
+				filter:url('#shadow1');
+			}
+			.shadow-filter-2{
+				filter:url('#shadow2');
+			}
+			.shadow-filter-3{
+				filter:url('#shadow3');
+			}
+			
+		</style>
+    </defs>
+	<g>
+		<rect y="0" x="0" height="320" width="560" class='canvas'/>
+		<g>	
+			<path class='base-style path-style-1  shadow-filter-1' d='m 270.52665,10.526355 h 38.86437 l 0.0825,298.946695 -38.78194,-0.0446 z' />
+			<path class='base-style path-style-1' d='M 49.985393,10.031648 23.046875,37.070312 153.056,310.03846 167.0865,310.02761 265.18175,80.376051 265.3125,10 H 255.09929 L 160.1,240 Z' />
+			<path class='base-style path-style-1' d='m 20.500592,39.799327 29.33854,61.491923 0.06741,208.59991 -39.574587,0.0813 0.0079,-259.910334 z'/>
+		</g>
+		<g>	
+			<text transform='rotate(-90 180 130)' x="5" y="330" class='text-style-1 shadow-filter-1'>MetaVerse</text>
+			<text transform='rotate(-90 180 140)' x="9" y="420" class='text-style-1 text-style-2 shadow-filter-1'>International</text>
+		</g>	
+	</g>	
+</svg>
