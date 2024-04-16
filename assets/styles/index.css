@@ -1,6 +1,7 @@
-/** styles/index.css */
+/** styles/index.css*/
 @import "./modules/resets.css";
 @import "./modules/classes.css";
+@import "./modules/icons.css";
 @import "./modules/base.css";
 @import "./modules/top_section.css";
 @import "./modules/main.css";

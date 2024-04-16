@@ -20,16 +20,16 @@
 	width: 100%;
 	padding: 0.5em;
 }
-.content-block article.notifications{
-	width: calc(100% - 2.0rem);
-	right: 1.0rem;	
-	left: 1.0rem;
-	margin-top: 0.5rem;
+.content-block article.disclaimer{
+	width: calc(100% - 0.4rem);
+	right: 0.2rem;	
+	left: 0.2rem;
+	margin-top: 0.2rem;
 	margin-bottom: 1.0rem;
 	font-size: 1.0rem;
 	padding: 0.5em;
 	background: #deeff3;
-	border: 0.2rem dashed #a9a9ab;
+	border: 0.1rem dashed #a9a9ab;
 }
 .content-block header{
 	color: rgb(30,70,81);
@@ -70,22 +70,15 @@
 .content-block small{
 	color: rgb(54 125 23);
 }
-.img-placeholder{
-	top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
 /** LANDING PAGE */
 main .block.page{
 	height: 100%;
 }
-
 main .block.page .template-null{
 	padding: 0.5rem;
 	height: inherit;
 	gap: 0.25rem;
 }
-
 .block-left{
 	align-items: center;
 }
@@ -95,7 +88,6 @@ main .block.page .template-null{
 	padding: 5px;
 	background: radial-gradient(ellipse at center, rgba(240,183,161,1) 0%,rgba(117,34,1,1) 99%,rgba(191,110,78,1) 100%);
 }
-
 .block-right{
 	padding: 0.5rem;
 	width: 100%;
@@ -106,19 +98,8 @@ main .block.page .template-null{
 	scrollbar-width: thin;
 }
 .content-block .home-page{
-	font-family:'Comic Sans MS';
 	padding: 1.5rem;
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.content-block.th .home-page{
+	font-family:'Microsoft Tai Le';
+}

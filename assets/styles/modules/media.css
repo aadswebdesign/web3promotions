@@ -30,7 +30,7 @@
 	.content-block article{
 		top: 0;
 	}
-	.content-block article.notifications{
+	.content-block article.disclaimer{
 		margin-bottom: 0.1rem;
 	}
 	.block-left .my-person-container{
@@ -47,7 +47,6 @@
 		padding: 0.3rem;
 	
 	}
-	
 }
 @media (max-width: 480px) and (orientation : portrait) {
 	div.page-tabs{
@@ -62,6 +61,5 @@
 		width: 100%;
 		justify-content: center;
 		padding-bottom: 0.5rem;
-	}	
-
+	}
 }

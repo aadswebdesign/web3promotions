@@ -22,9 +22,9 @@ nav.main-menu{
 }
 nav.main-menu .menu-item{
 	width: fit-content;
-	min-width: 24px;
-	height: 1.8rem;
-	padding: 0 0.25em 0.14em 0.25em;
+	min-width: 2.8rem;
+	height: 2.0rem;
+	padding: 0.05em 0.25em 0.05em 0.25em;
 	cursor: pointer;
 	border: 1px solid;
 	border-top-color: #e2e4e7;
@@ -35,16 +35,26 @@ nav.main-menu .menu-item{
 }
 div.menu-item:hover{
 	border-bottom-color: rgb(2,155,40);
+	opacity: 0.8;
 }
 div.menu-item.active{
 	border-bottom-color: rgb(2,155,40);
 	opacity: 0.6;
+	cursor: initial;
+}
+#menu_item_0.menu-item{
+	order: 3;
+	width: 2.8rem;
+	height:2.0rem;
+}
+#menu_item_0.active{
+	display: none;
 }
 #menu_item_1{
-	order: 2;
+	order: 1;
 }
 #menu_item_2{
-	order: 1;
+	order: 2;
 }
 div.page-tabs{
 	padding-left: 0.5rem;
@@ -58,7 +68,6 @@ div.page-tabs .details-block{}
 	height: 1px;
 	display: none;
 }
-
 div.page-tabs summary{
 	width: 130px;
 }
@@ -71,27 +80,9 @@ div.page-tabs summary .summary-ruler{
 	z-index: 10;
 	display: none;
 }
-details.page-tab[open] summary {
-	
-}
 details.page-tab[open] summary .summary-ruler{
 	display: block;
 }
-
-.tab-one summary i.blockchain-bg{
-	left: 30px;
-	background: no-repeat url("./../../graphics/icons/blockchain-bg.svg");
-	
-}
-.tab-two summary i.metaverse-bg{
-	left: 30px;
-	background: no-repeat url("./../../graphics/icons/metaverse-bg.svg");
-	
-}
-
-
-
-
 details.open-down div.details-content{
 	margin-right: auto;
 	margin-left: auto;
@@ -117,7 +108,6 @@ details.open-down div.details-content{
 }
 .details-content p,
 .details-content ul{
-	padding-left: 0.8rem;
 }
 .details-content h3{
 	color: rgb(77,87,40);
@@ -129,19 +119,3 @@ details.open-down div.details-content{
 .details-content strong.topic{
 	color: rgb(0,64,128);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

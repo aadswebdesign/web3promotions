@@ -1,0 +1,55 @@
+/** modules/icons.css */
+.cookie-img::after{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	content: url("./../../graphics/icons/cookie.svg");
+}
+.no-cookie-img::after{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	content: url("./../../graphics/icons/no-cookie.svg");
+}
+.flag-nl::before{
+	position: relative;
+	top: 1px;
+	content: url("./../../graphics/icons/FLAG_NL.svg");
+}
+.flag-th::before{
+	position: relative;
+	top: 1px;
+	content: url("./../../graphics/icons/FLAG_TH.svg");
+}
+.globe::before{
+	position: relative;
+	top: 1px;
+	content: url("./../../graphics/icons/GLOBE.svg");
+}
+.home::before{
+	position: relative;
+	top: 1px;
+	left: 2.5px;
+	content: url("./../../graphics/icons/HOME_CSS.svg");
+	text-align: center;
+}
+.tab-one summary i.blockchain-bg{
+	left: 30px;
+	background: no-repeat url("./../../graphics/icons/blockchain-bg.svg");
+	
+}
+.tab-two summary i.metaverse-bg{
+	left: 30px;
+	background: no-repeat url("./../../graphics/icons/metaverse-bg.svg");
+	
+}
+.email::before{
+	position: relative;
+	top: 0.01rem;
+	content: url("./../../graphics/icons/ENVELOP_CSS.svg");
+}
+.subscribe::before{
+	position: relative;
+	content: url("./../../graphics/icons/MVI_LOGO_3_CSS.svg");
+	
+}

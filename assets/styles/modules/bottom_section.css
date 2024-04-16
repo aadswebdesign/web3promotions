@@ -29,71 +29,73 @@ details.cookie-details[open] .details-content{
 	color: #ebefdd;
 	transform: translateY(-8px);
 }
-
-div.bottom-block .call-to-action.en{
-	background-image:  url("./../../graphics/icons/subscribe-en.svg");
-}
-div.bottom-block .call-to-action.nl{
-	background-image:  url("./../../graphics/icons/subscribe-nl.svg");
-}
-div.bottom-block .call-to-action.th{
-	background-image:  url("./../../graphics/icons/subscribe-th.svg");
-}
 div.bottom-block .call-to-action{
 	top: 0.1rem;
-	width: 9.5rem;
 	height:2.2rem;
-	background-repeat: no-repeat;
-	background-size: 9.5rem 2.2rem;
+	gap: 0.5rem;
+}
+.call-to-action .email{
+	height: inherit;
+	width: 3.0rem;
 	cursor: pointer;
 }
-
+.call-to-action .email:hover{
+	opacity: 0.8;	
+}
+.call-to-action .subscribe{
+	height: inherit;
+	width: 3.2rem;
+	cursor: pointer;
+}
+.call-to-action .subscribe:hover{
+	opacity: 0.8;	
+}
 .content-block-tabs{
 	flex-grow: 1;
 	justify-content: flex-end;
 	gap: 0.3rem;
 	padding-bottom:0.2rem;
 }
+.block-tab summary{
+	width: 55px;
+	height: fit-content;
+}
+.block-tab summary:hover{
+	opacity: 0.8;	
+}
 .block-tab.one[open] summary{
 	opacity: 0.5;
 	cursor: initial;
 }
-.block-tab summary{
-	width: 60px;
-	height: fit-content;
-}
-.block-tab.one summary{
-	height: 36px;
-}
-.block-tab.one summary i{
-	background-image:  url("./../../graphics/icons/globe.svg");
-	background-size: 24px, 24px;
-}
-
-.block-tab.two summary i{
-	background-image:  url("./../../graphics/icons/flag-nl.svg");
-}
-.block-tab.three summary i{
-	background-image:  url("./../../graphics/icons/flag-th.svg");
-}
 .block-tab summary i{
 	top: auto;
 	left: auto;
-	width: 36px;
-	height: 32px;
+	bottom: 5px;
+	width: 32px;
+	height: 24px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
 }
-
+.block-tab.one summary i{
+	background-image:  url("./../../graphics/icons/FLAG_NL.svg");
+	background-size: 32px, 24px;
+}
+.block-tab.two summary i{
+	background-image:  url("./../../graphics/icons/GLOBE.svg");
+	background-size: 32px, 24px;
+}
+.block-tab.three summary i{
+	background-image:  url("./../../graphics/icons/FLAG_TH.svg");
+	background-size: 32px, 24px;
+}
 footer.main{
 	width: fit-content;	
 }
 footer.main small{
 	top: 0.4rem;
 	height: 2.4rem;
-
 	padding-right: 0.45rem;
 	color: #adadad;
-	white-space: balance;
+	text-wrap: balance;
 }
