@@ -18,7 +18,7 @@ export const content_nl = async ()=>{
 			<h3>De MetaVerseInternational (MVI).</h3>
 			<p class='fl-one'>Dit is een nieuw gecreëerd communityplatform om de verschillende projecten te helpen groeien die op de <span class='quoted-double'>(CPC) Blockchain</span> gaan draaien.
 			Projecten die toekomst, duurzaamheid en transparantie gemeen hebben. Anders wil de <span class='quoted-double'>CPGroup</span> deze niet op de blockchain hebben. Hierover wil ik u informeren en over de geweldige mogelijkheden op een passief inkomen dat het u te bieden heeft.</p>
-			<p><strong>Klik op het vlaggetje, rechtsboven voor meer! </strong></p>
+			<p><strong>Klik op het vlaggetje, rechtsboven voor meer!</strong></p>
 		</article>
 	`;
 };

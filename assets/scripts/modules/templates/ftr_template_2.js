@@ -7,7 +7,7 @@ export async function ftrTemplateTwo(){
 	const template = `
 		<details class='cookie-details open-up relative'>
 			<i title=></i>
-			<summary class='to-up-caret no-cookie-img relative' data-added-title=', Geen Cookies!, Afbeelding is van www.svgrepo.com' title='Open, Geen Cookies!, Afbeelding is van www.svgrepo.com'></summary>
+			<summary class='to-up-caret relative' data-added-title='' title='Open, Geen Cookies!'><i class='no-cookie-img absolute'></i></summary>
 			<div class='details-content nl fixed display-flex'>
 				<p>Naast mogelijke functionele cookies worden er geen andere cookies gebruikt!</p>
 			</div>

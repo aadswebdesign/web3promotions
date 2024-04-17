@@ -12,8 +12,15 @@ div.bottom-block{
 	gap: 0.8rem;
 }
 details.cookie-details summary{
+	top: 0.6rem;
+	left: 0.4rem;
+	width: 64px;
+	height:32px;
 	font-size: 1.1rem;
 	cursor: pointer;
+}
+details.cookie-details summary i{
+	left: auto;
 }
 details.cookie-details[open] summary{
 	opacity: 0.6;
@@ -60,6 +67,7 @@ div.bottom-block .call-to-action{
 	width: 55px;
 	height: fit-content;
 }
+
 .block-tab summary:hover{
 	opacity: 0.8;	
 }

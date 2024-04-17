@@ -3,13 +3,13 @@
 	position: relative;
 	top: 5px;
 	left: 5px;
-	content: url("./../../graphics/icons/cookie.svg");
+	content: url("./../../graphics/icons/COOKIE.svg");
 }
 .no-cookie-img::after{
 	position: relative;
-	top: 5px;
-	left: 5px;
-	content: url("./../../graphics/icons/no-cookie.svg");
+	width:32px;
+	height:24px;
+	content: url("./../../graphics/icons/NO_COOKIE.svg");
 }
 .flag-nl::before{
 	position: relative;

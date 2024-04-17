@@ -6,7 +6,7 @@ import * as FT from './../../factory/functions.js';
 export async function ftrTemplateThree(){
 	const template = `
 		<details class='cookie-details open-up relative'>
-			<summary class='to-up-caret no-cookie-img relative' data-added-title=',ไม่มีคุกกี้ ,  ภาพมาจาก www.svgrepo.com' title='Open,ไม่มีคุกกี้ ,  ภาพมาจาก www.svgrepo.com'></summary>
+			<summary class='to-up-caret relative' data-added-title='' title='Open,ไม่มีคุกกี้ '><i class='no-cookie-img absolute'></i></summary>
 			<div class='details-content th fixed display-flex'>
 				<p>นอกเหนือจากคุกกี้การทำงานที่เป็นไปได้แล้ว ไม่มีการใช้คุกกี้อื่นๆ!</p>
 			</div>

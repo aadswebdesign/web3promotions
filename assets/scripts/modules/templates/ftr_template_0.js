@@ -6,7 +6,7 @@ import * as FT from './../../factory/functions.js';
 export async function ftrTemplateNull(){
 	const template = `
 		<details class='cookie-details open-up relative'>
-			<summary class='to-up-caret no-cookie-img relative' data-added-title=', No Cookies, Image is from www.svgrepo.com' title='Open, No Cookies, Image is from www.svgrepo.com'></summary>
+			<summary class='to-up-caret relative' data-added-title='' title='Open, No Cookies'><i class='no-cookie-img absolute'></i></summary>
 			<div class='details-content en fixed display-flex'>
 				<p class='relative'>Aside of possible functional cookies, there are no other cookies used!</p>
 			</div>
