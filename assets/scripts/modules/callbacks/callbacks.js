@@ -191,14 +191,14 @@ export async function callbacks(){
 		const subscribe_a_elem = await FT.elQuery('a', false, subscribe);
 		//MVI links
 		const direct_id = 231;
-		const site_url = 'https://platform.thespacemall.com'; //has to be checked
+		const site_url = 'https://platform.mvi.world'; //has to be checked
 		//LEFT SIDE LINK JS
 		const left_side_id = 0;
-		const signature_left = 'd0ce6d301527363c46e9235eff5eab8ff57172ec5aec06ccbd5ea64a797fd876'; 	
+		const signature_left = '63cd79d2f42960262e946b91fe32ef1402eb9785d4143762417a70172b139928'; 	
 		const leftSideLink = `${site_url}/register?directId=${direct_id}&refId=leftright&side=${left_side_id}&signature=${signature_left}`;
 		//RIGHT SIDE LINK JS
 		const right_side_id = 1; 
-		const signature_right = 'b85e6edc6792b09e80f8b421393d2e4f5365eebd1b307fd1e0e2ab45983c2042';
+		const signature_right = '3453878d9ddbb57a3fc730614771472edfd097b4aa183bb22536708acfa6c977';
 		const rightSideLink =`${site_url}/register?directId=${direct_id}&refId=leftright&side=${right_side_id}&signature=${signature_right}`;
 		subscribe_a_elem.href = rightSideLink;
 	})();// is an  IIFE (Immediately Invoked Function Expression)
