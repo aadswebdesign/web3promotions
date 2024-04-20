@@ -30,26 +30,26 @@
 	position: relative;
 	top: 1px;
 	left: 2.5px;
-	content: url("./../../graphics/icons/HOME_CSS.svg");
+	content: url("./../../graphics/icons/HOME.svg");
 	text-align: center;
 }
 .tab-one summary i.blockchain-bg{
 	left: 30px;
-	background: no-repeat url("./../../graphics/icons/blockchain-bg.svg");
+	background: no-repeat url("./../../graphics/icons/BLOCKCHAIN.svg");
 	
 }
 .tab-two summary i.metaverse-bg{
 	left: 30px;
-	background: no-repeat url("./../../graphics/icons/metaverse-bg.svg");
+	background: no-repeat url("./../../graphics/icons/METAVERSE.svg");
 	
 }
 .email::before{
 	position: relative;
 	top: 0.01rem;
-	content: url("./../../graphics/icons/ENVELOP_CSS.svg");
+	content: url("./../../graphics/icons/ENVELOP.svg");
 }
 .subscribe::before{
 	position: relative;
-	content: url("./../../graphics/icons/MVI_LOGO_3_CSS.svg");
+	content: url("./../../graphics/icons/MVI_LOGO.svg");
 	
 }

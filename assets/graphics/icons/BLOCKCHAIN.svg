@@ -1,0 +1,52 @@
+<svg viewBox="0 -8 920 320" height="32px" width="92px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+	    <filter id='shadow_1'>
+		<feDropShadow stdDeviation="0.4" dy="0.6" dx="0.4" />
+		</filter>
+		<style>
+			.base-style{fill: none;fill-rule:evenodd;stroke:#000000;stroke-width:0.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1 }
+			.fill-base{fill: rgba(167,167,167,.4);}
+			.fill-1{fill: rgb(102,102,102);}
+			.fill-2{fill: rgb(167,167,167);}
+			.fill-3{fill: rgb(234,234,234);}
+			.stroke-set-1{ stroke: rgb(167,167,167);stroke-width:3px;}
+			.text-base{font-style:normal;font-weight:normal;font-size:35px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;}
+			.text-set-1{font-size:60px;fill:rgb(255,215,0);letter-spacing:5px;fill-width:5px;stroke:rgb(167,167,167);stroke-width:2px;filter:url(#shadow_1);}
+			.d-3-back{fill:#e9e9ff;}
+			.d-3-l-r-outer{fill:#353564;}
+			.d-3-bottom{fill:#afafde;}
+			.d-3-top{fill:rgb(195,195,195);}
+			.d-3-l-r-inner{fill:rgb(144,144,144);}
+			.d-3-front{fill: rgb(117,117,117);}
+		</style>
+		<path id='text_path_1' class="base-style" d='m 240,220.1996 c 138.7373,42.73071 283.64399,50.12899 440,0' />		
+    </defs>
+	<g>
+		<path class='base-style fill-base' d='M 0.10002933,0.10002933 H 919.89996 V 319.89996 H 0.10002933 Z'/>
+		<g>
+			<!-- left box -->
+			<path class='base-style d-3-back' d='m 199.63156,0.22816 199.47777,49.87745 -0.004,219.98247 -199.47777,-49.87745 z' points='180,10.642643 180,140.89886 77.623098,100.43863 77.623098,3.1488494e-06' />
+			<path class='base-style d-3-l-r-outer' d='M 0.14481,50.09727 0.14052,270.07974 199.62727,220.21063 199.63156,0.22816 Z' points='-1.8469616e-06,122.56649 77.623098,100.43863 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046' />
+			<path class='base-style d-3-bottom' d='M 0.14052,270.07974 199.36655,319.78935 399.10504,270.08808 199.62727,220.21063 Z' ponts='-1.8469616e-06,122.56649 77.623098,100.43863 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046' />
+			<path class='base-style d-3-top' d='M 0.14481,50.09727 199.37084,99.80688 399.10935,50.10561 199.63156,0.22816 Z' points='96.883043,20.92779 180,10.642643 77.623098,3.1488494e-06 -1.8469616e-06,5.8205046'/>
+			<path class='base-style d-3-l-r-inner' d='m 199.37084,99.80688 -0.004,219.98247 199.73849,-49.70127 0.004,-219.98247 z' points='96.883043,180 180,140.89886 180,10.642643 96.883043,20.92779'/>		
+			<path class='base-style d-3-front' d='m 0.14481,50.09727 199.22603,49.70961 -0.004,219.98247 L 0.14052,270.07974 Z' points='96.883043,20.92779 96.883043,180 -1.8469616e-06,122.56649 -1.8469616e-06,5.8205046'/>		
+		</g>
+		<g>
+			<!-- right box -->
+			<path class='base-style d-3-back' d='m 720.40852,0.30216 -199.4863,49.86911 -0.009,219.95051 199.48675,-49.86911 z' points='300,10.642643 300,140.89886 402.3769,100.43863 402.3769,3.1488494e-06'/>		
+			<path class='base-style d-3-l-r-outer' d='m 919.88629,50.17961 -0.009,219.95051 -199.47779,-49.87745 0.009,-219.95051 z' points='480,122.56649 402.3769,100.43863 402.3769,3.1488494e-06 480,5.8205046'/>		
+			<path class='base-style d-3-bottom' d='M 919.87774,270.13012 720.13925,319.83139 520.91322,270.12178 720.39997,220.25267 Z' points='383.11696,180 300,140.89886 402.3769,100.43863 480,122.56649'/>		
+			<path class='base-style d-3-top' d='M 919.88629,50.17961 720.1478,99.88088 520.92222,50.17127 720.40852,0.30216 Z' points='383.11696,20.92779 300,10.642643 402.3769,3.1488494e-06 480,5.8205046'/>		
+			<path class='base-style d-3-l-r-inner' d='m 720.1478,99.88088 -0.009,219.95051 -199.22558,-49.70961 0.009,-219.95051 z' points='383.11696,180 300,140.89886 300,10.642643 383.11696,20.92779'/>		
+			<path class='base-style d-3-front' d='m 919.88629,50.17961 -199.73849,49.70127 -0.009,219.95051 199.73849,-49.70127 z' points='383.11696,20.92779 383.11696,180 480,122.56649 480,5.8205046'/>		
+		</g>
+		<g>
+			<!-- shape -->
+			<path class='base-style fill-1' d='m 272.2072,92.585115 c 123.72732,19.772135 247.98292,20.297155 372.80998,0 58.0945,41.199315 74.43525,169.682045 0,191.199735 -125.96082,34.78241 -255.62714,33.38147 -372.80998,0 -75.35462,-34.3407 -48.89639,-147.59204 0,-191.199735 z' />
+		</g>
+		<g>
+			<text class='text-base text-set-1' x="10" y="385"><textPath href='#text_path_1'>BLOCKCHAIN</textPath></text>
+		</g>
+	</g>
+</svg>

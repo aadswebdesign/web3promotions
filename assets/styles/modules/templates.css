@@ -94,7 +94,7 @@ main .block.page .template-null{
 	flex-grow: 1;
 	overflow-x:hidden;
 	overflow-y: auto;
-	scrollbar-color: rgb(77,87,40) rgb(150,170,79);
+	scrollbar-color: rgb(90,140,177) rgb(150,216,217);
 	scrollbar-width: thin;
 }
 .content-block .home-page{

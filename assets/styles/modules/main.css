@@ -3,4 +3,5 @@
 	flex-grow: 1;
 	overflow-y: auto;
 	color: rgb(77,87,40);
+	scrollbar-color: rgb(90,140,177) rgb(150,216,217);
 }
