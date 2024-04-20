@@ -77,6 +77,9 @@ div.page-tabs summary{
 div.page-tabs .tab-one summary{
 	width: 125px;
 }
+div.page-tabs .tab-one .page-tab summary i{
+	transform: translateY(0.06em);
+}
 div.page-tabs summary.to-up-caret::before{}
 div.page-tabs summary::before{
 	padding-left: 0.2em;

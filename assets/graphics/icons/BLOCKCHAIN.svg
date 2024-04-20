@@ -1,4 +1,4 @@
-<svg viewBox="0 -8 920 320" height="32px" width="92px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 920 320" height="32px" width="92px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
 	    <filter id='shadow_1'>
 		<feDropShadow stdDeviation="0.4" dy="0.6" dx="0.4" />
@@ -19,7 +19,7 @@
 			.d-3-l-r-inner{fill:rgb(144,144,144);}
 			.d-3-front{fill: rgb(117,117,117);}
 		</style>
-		<path id='text_path_1' class="base-style" d='m 240,220.1996 c 138.7373,42.73071 283.64399,50.12899 440,0' />		
+		<path id='text_path_1' class="base-style" d='m 240,210.1996 c 138.7373,42.73071 283.64399,50.12899 440,0' />		
     </defs>
 	<g>
 		<path class='base-style fill-base' d='M 0.10002933,0.10002933 H 919.89996 V 319.89996 H 0.10002933 Z'/>
