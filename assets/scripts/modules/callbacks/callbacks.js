@@ -10,7 +10,7 @@ export async function callbacks(){
 	const top_block = (async()=>{
 		const tb_obj = {};
 		tb_obj.elems = elems;
-		tb_obj.top = await FT.elQuery('section.top');//
+		tb_obj.top = await FT.elQuery('section.top');
 		tb_obj.parent = await FT.elQuery('.page-tabs',false, tb_obj.top);
 		tb_obj.details_elems = await FT.elQuery('div.details-block details.page-tab',true,tb_obj.elems.parent);
 		tb_obj.details_blocks = await FT.elQuery('div.details-block',true,tb_obj.parent); 
@@ -89,7 +89,7 @@ export async function callbacks(){
 								}
 							}
 							dom_manipulator()();
-							window.visualViewport.addEventListener('resize',()=>{
+							elems.vp.addEventListener('resize',()=>{
 								dom_manipulator()();
 							});
 						}else{
@@ -170,7 +170,7 @@ export async function callbacks(){
 								};
 							};
 							dom_manipulator()();
-							window.visualViewport.addEventListener('resize',()=>{
+							elems.vp.addEventListener('resize',()=>{
 								dom_manipulator()();
 							});
 						}

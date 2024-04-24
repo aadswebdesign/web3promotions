@@ -116,7 +116,7 @@ export const detailsHandler = async (_obj, _toggle = false, _log = false)=>{
 			const content = await FT.elQuery('div.details-content', false, elem);
 			elem.addEventListener('toggle', (event) => {
 				const summary = elem.querySelector('summary');
-			const added_title = summary.dataset.addedTitle;
+				const added_title = summary.dataset.addedTitle;
 				switch (true){
 					case elem.classList.contains(obj.opens.up):
 						if(elem.open){

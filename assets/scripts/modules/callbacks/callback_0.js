@@ -15,7 +15,10 @@ export const templateMainCb = async (_obj,page_id)=>{
 		main: await FT.elQuery('main'),
 		body: document.body,
 	};
-
+	const top_block = (async()=>{
+		const main = elems.main;
+		main.style.opacity = 1;
+	})();
 	const bottom_block = (async ()=>{
 		const bb_obj = {};
 		bb_obj.elems = elems;
@@ -84,7 +87,7 @@ export const templateMainCb = async (_obj,page_id)=>{
 								};
 							};
 							dom_manipulator()();
-							window.visualViewport.addEventListener('resize',()=>{
+							elems.vp.addEventListener('resize',()=>{
 								dom_manipulator()();
 							});
 						}
@@ -151,7 +154,7 @@ export const templateMainCb = async (_obj,page_id)=>{
 		};
 	};
 	vp_handler()();
-	window.visualViewport.addEventListener('resize',()=>{
+	elems.vp.addEventListener('resize',()=>{
 		vp_handler()();
 	});
 };
